@@ -1,0 +1,14 @@
+# History files
+.Rhistory
+
+# RStudio files
+.Rproj.user
+.Rproj.user/
+
+# Quarto
+/.quarto/
+/_site/
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
