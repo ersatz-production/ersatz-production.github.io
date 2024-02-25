@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: d3b7f280-a052-4620-90b7-5155a573a4fc
+      url: 'https://ersatz-production.netlify.app'
