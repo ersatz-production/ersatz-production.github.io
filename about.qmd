@@ -1,5 +1,16 @@
 ---
-title: "About"
+title: "About This Website"
+image: image/profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ersatz-production
 ---
 
-About this site
+Hey there!
+
+We are Ersatz Production.
+
+Nice to meet you!

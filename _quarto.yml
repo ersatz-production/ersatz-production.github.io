@@ -2,19 +2,67 @@ project:
   type: website
 
 website:
-  title: "Ersatz-production.github.io"
+  title: "Ersatz Production"
+  description: "Make your dreams come true"
+  page-navigation: false
+  reader-mode: false  
+  favicon: "image/favicon/apple-touch-icon.png"
   navbar:
+    title: false
+    background: "#0571B0"
+    logo: "image/favicon/apple-touch-icon.png"
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      - text: About
+        menu:
+        - about.qmd
+        - href: privacy.html
+          text: Privacy Policy
+        - href: terms_and_conditions.html
+          text: Terms and Conditions
+      - href: contact.qmd
+        text: Contact
+    right:
+      - mission.qmd
+      - text: Sites
+        menu:
+        - href: https://ersatzproduction.com
+          text: Homepage
+        - href: https://vimeo.com/showcase/3035516
+          text: Porfolio
+      - text: GitHub
+        menu:
+        - icon: github
+          href: https://github.com/ersatz-production/ersatz-production.github.io
+          text: Website GitHub Repository
+        - icon: github
+          href: https://github.com/ersatz-production
+          text: Ersatz Production GitHub Organisation
+        
+  page-footer:
+    center:
+      - href: https://ersatzproduction.com
+        text: ersatzproduction.com
+    right: 
+      - href: privacy.html
+        text: Privacy Policy
+      - href: terms_and_conditions.html
+        text: Terms and Conditions
+  site-url: https://ersatzproduction.com
+  repo-url: https://github.com/ersatz-production/ersatz-production.github.io
+  open-graph: true
+  search: true
+  
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: sandstone
+      dark: darkly
     css: styles.css
     toc: true
+    include-after-body: plausible.html
 
+editor: visual
 execute:
   freeze: auto
+
 
