@@ -1,0 +1,80 @@
+---
+title: "About Us"
+image: image/profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/ersatz-production
+---
+
+Hey there!
+
+We are Ersatz Production.
+
+Nice to meet you!
+
+
+```{r}
+#| echo: false
+# Copyright to djnavarro: https://github.com/djnavarro/djnavarro.github.io/blob/main/index.qmd
+add_card <- function(src, title, text, url, link_text, img_alt) {
+  lines <- c(
+    '<div class="g-col-12 g-col-md-6 g-col-xl-4">',
+    '<div class="card h-100">',
+    paste0(
+      '<a href="', 
+      url, 
+      '"><img src="', 
+      src, 
+      '"',
+      'alt = "',
+      img_alt,
+      '"',
+      'class="card-img-top"></a>'
+    ),
+    '<div class="card-body">',
+    paste0('<h2 class="card-title">', title, '</h2>'),
+    paste0('<p class="card-text">', text, '</p>'),
+    '</div>',
+    '<div class="card-footer">',
+    paste0('<a href="', url, '" class="btn btn-primary">', link_text, '</a>'),
+    '</div>',
+    '</div>',
+    '</div>'
+  )
+  cat(lines, sep="\n")
+}
+```
+
+::: grid
+```{r cards}
+#| echo: false
+#| results: asis
+
+add_card(
+  src = "image/profile.jpg",
+  title = "Rani Gillioz", 
+  text = "Rani Gillioz is...",
+  url = "https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A",
+  img_alt = "A man",
+  link_text = "www.swissfilms.ch"
+)
+
+add_card(
+  src = "image/lclettry_profile.jpg",
+  title = "Layal C. Lettry", 
+  text = "Layal C. Lettry handles the groundwork and administrative tasks.",
+  url = "https://lclettry.com",
+  img_alt = "A girl.",
+  link_text = "lclettry.com"
+)
+```
+:::
+
+
+
+<!-- verification -->
+
+<a rel="me" style="display:none" href="https://github.com/ersatz-production">Hidden link used to verify my account on GitHub</a>

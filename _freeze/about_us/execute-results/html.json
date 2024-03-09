@@ -1,0 +1,15 @@
+{
+  "hash": "dcf7cb2d8e5b9e98f063bcb3548dffb6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"About Us\"\nimage: image/profile.jpg\nabout:\n  template: jolla\n  links:\n    - icon: github\n      text: Github\n      href: https://github.com/ersatz-production\n---\n\n\nHey there!\n\nWe are Ersatz Production.\n\nNice to meet you!\n\n\n\n::: {.cell}\n\n:::\n\n\n::: grid\n\n<div class=\"g-col-12 g-col-md-6 g-col-xl-4\">\n<div class=\"card h-100\">\n<a href=\"https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A\"><img src=\"image/profile.jpg\"alt = \"A man\"class=\"card-img-top\"></a>\n<div class=\"card-body\">\n<h2 class=\"card-title\">Rani Gillioz</h2>\n<p class=\"card-text\">Rani Gillioz is...</p>\n</div>\n<div class=\"card-footer\">\n<a href=\"https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A\" class=\"btn btn-primary\">www.swissfilms.ch</a>\n</div>\n</div>\n</div>\n<div class=\"g-col-12 g-col-md-6 g-col-xl-4\">\n<div class=\"card h-100\">\n<a href=\"https://lclettry.com\"><img src=\"image/lclettry_profile.jpg\"alt = \"A girl.\"class=\"card-img-top\"></a>\n<div class=\"card-body\">\n<h2 class=\"card-title\">Layal C. Lettry</h2>\n<p class=\"card-text\">Layal C. Lettry handles the groundwork and administrative tasks.</p>\n</div>\n<div class=\"card-footer\">\n<a href=\"https://lclettry.com\" class=\"btn btn-primary\">lclettry.com</a>\n</div>\n</div>\n</div>\n\n:::\n\n\n\n<!-- verification -->\n\n<a rel=\"me\" style=\"display:none\" href=\"https://github.com/ersatz-production\">Hidden link used to verify my account on GitHub</a>",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
