@@ -50,14 +50,7 @@ add_card <- function(src, title, text, url, link_text, img_alt) {
 ```{r cards}
 #| echo: false
 #| results: asis
-add_card(
-  src = "image/profile.jpg",
-  title = "Ersatz Production GitHub", 
-  text = "Explore our GitHub Organisation!",
-  url = "https://github.com/ersatz-production",
-  img_alt = "Ersatz Production Logo",
-  link_text = "github.com/ersatz-production"
-)
+
 add_card(
   src = "image/unnameable_pic.png",
   title = "The Unnameable (L’Innommable)", 
@@ -83,6 +76,15 @@ add_card(
   url = "https://cryptofacto.buzzsprout.com",
   img_alt = "A handsome blond man an over a green background.",
   link_text = "cryptofacto.buzzsprout.com"
+)
+
+add_card(
+  src = "image/profile.jpg",
+  title = "Ersatz Production GitHub", 
+  text = "Explore our GitHub Organisation!",
+  url = "https://github.com/ersatz-production",
+  img_alt = "Ersatz Production Logo",
+  link_text = "github.com/ersatz-production"
 )
 ```
 :::
