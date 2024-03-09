@@ -19,7 +19,7 @@ Nice to meet you!
 ```{r}
 #| echo: false
 # Copyright to djnavarro: https://github.com/djnavarro/djnavarro.github.io/blob/main/index.qmd
-add_card <- function(src, title, text, url, link_text, img_alt) {
+add_card <- function(src, title, subtitle, text, url, link_text, img_alt) {
   lines <- c(
     '<div class="g-col-12 g-col-md-6 g-col-xl-4">',
     '<div class="card h-100">',
@@ -36,6 +36,7 @@ add_card <- function(src, title, text, url, link_text, img_alt) {
     ),
     '<div class="card-body">',
     paste0('<h2 class="card-title">', title, '</h2>'),
+    paste0('<h3 class="card-subtitle">', subtitle, '</h3>'),
     paste0('<p class="card-text">', text, '</p>'),
     '</div>',
     '<div class="card-footer">',
@@ -54,18 +55,42 @@ add_card <- function(src, title, text, url, link_text, img_alt) {
 #| results: asis
 
 add_card(
-  src = "image/profile.jpg",
+  src = "image/avatar-rani.png",
   title = "Rani Gillioz", 
-  text = "Rani Gillioz is...",
+  subtitle = "Vice-President",
+  text = "Rani Gillioz is a filmmaker. He is the author of several short and feature films, including \"L'Innommable (The Unnameable)\". He works as a translator.",
   url = "https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A",
-  img_alt = "A man",
+  img_alt = "An avatar of a man with a beard.",
   link_text = "www.swissfilms.ch"
 )
 
 add_card(
+  src = "image/vincent_profile.jpg",
+  title = "Vincent Lettry", 
+  subtitle = "President",
+  text = "Vincent Lettry is an English and History teacher. He is passionate about telling stories and podcasting.",
+  url = "https://www.linkedin.com/in/vincent-lettry-a4ab81259/?originalSubdomain=ch",
+  img_alt = "An avatar of a blond man.",
+  link_text = "www.linkedin.com"
+)
+
+
+add_card(
+  src = "image/matthias_profile.jpg",
+  title = "Matthias Klee", 
+  subtitle = "Secretary",
+  text = "Matthias Klee is an actor and a writer. He is fond of arts, philosophy and Japanese culture.",
+  url = "https://ersatzproduction.com",
+  img_alt = "tbd",
+  link_text = "ersatzproduction.com"
+)
+
+
+add_card(
   src = "image/lclettry_profile.jpg",
   title = "Layal C. Lettry", 
-  text = "Layal C. Lettry handles the groundwork and administrative tasks.",
+  subtitle = "Treasurer",
+  text = "Layal C. Lettry handles the groundwork and administrative tasks. She is a data scientist and an economist, maintaining the whole infrastructure of Ersatz Production.",
   url = "https://lclettry.com",
   img_alt = "A girl.",
   link_text = "lclettry.com"

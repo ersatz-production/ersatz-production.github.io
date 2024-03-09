@@ -74,7 +74,7 @@ add_card(
   title = "Crypto Facto Podcast", 
   text = "Bienvenue sur Crypto Facto, le podcast qui vous fait (re)découvrir les protocoles blockchains et les crypto-monnaies. Je partage ce que je comprends et ce que je fais pour que ce soit aussi utile au plus grand nombre. Au programme, des petits épisodes pour poser quelques bases, des dossiers complets sur des protocoles et des entretiens de partage d'expérience. Merci d'être passé par là et bonne écoute.",
   url = "https://cryptofacto.buzzsprout.com",
-  img_alt = "A handsome blond man an over a green background.",
+  img_alt = "A blond man an over a green background.",
   link_text = "cryptofacto.buzzsprout.com"
 )
 
