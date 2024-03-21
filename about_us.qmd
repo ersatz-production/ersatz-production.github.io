@@ -58,7 +58,7 @@ add_card(
   src = "image/avatar-rani.png",
   title = "Rani Gillioz", 
   subtitle = "Vice-President",
-  text = "Rani Gillioz is a filmmaker. He is the author of several short and feature films, including \"L'Innommable (The Unnameable)\". He works as a translator.",
+  text = "Rani Gillioz is a filmmaker. He is the author of several short and feature films, including \"L'Innommable (The Unnameable)\". He works as a translator. He's nice.",
   url = "https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A",
   img_alt = "An avatar of a man with a beard.",
   link_text = "www.swissfilms.ch"
