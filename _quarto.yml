@@ -9,7 +9,7 @@ website:
   favicon: "image/favicon/apple-touch-icon.png"
   navbar:
     title: false
-    background: "#0571B0"
+    background: "#069999"
     logo: "image/favicon/apple-touch-icon.png"
     right:
       - href: about_us.qmd
