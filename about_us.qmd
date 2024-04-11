@@ -57,7 +57,7 @@ add_card <- function(src, title, subtitle, text, url, link_text, img_alt) {
 add_card(
   src = "image/avatar-rani.png",
   title = "Rani Gillioz", 
-  subtitle = "Vice-President",
+  subtitle = "Creation",
   text = "Rani Gillioz is a filmmaker. He is the author of several short and feature films, including \"L'Innommable (The Unnameable)\". He works as a translator.",
   url = "https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A",
   img_alt = "An avatar of a man with a beard.",
@@ -67,7 +67,7 @@ add_card(
 add_card(
   src = "image/vincent_profile.jpg",
   title = "Vincent Lettry", 
-  subtitle = "President",
+  subtitle = "Communication",
   text = "Vincent Lettry is an English and History teacher. He is passionate about telling stories and podcasting.",
   url = "https://www.linkedin.com/in/vincent-lettry-a4ab81259/?originalSubdomain=ch",
   img_alt = "An avatar of a blond man.",
@@ -78,7 +78,7 @@ add_card(
 add_card(
   src = "image/matthias_profile.jpg",
   title = "Matthias Klee", 
-  subtitle = "Secretary",
+  subtitle = "Creation",
   text = "Matthias Klee is an actor and a writer. He is fond of arts, philosophy and Japanese culture.",
   url = "https://ersatzproduction.com",
   img_alt = "tbd",
@@ -89,8 +89,10 @@ add_card(
 add_card(
   src = "image/lclettry_profile.jpg",
   title = "Layal C. Lettry", 
-  subtitle = "Treasurer",
-  text = "Layal C. Lettry handles the groundwork and administrative tasks. She is a data scientist and an economist, maintaining the whole infrastructure of Ersatz Production.",
+  subtitle = "Organisation",
+  text = "Meet Layal, our data magician! She's all about bringing data to life with a dash of creativity and a sprinkle of magic. Inspired by animated and fantasy flicks, Layal's passion shines through in her work as a data scientist and econometrician.
+
+Whether she's jazzing up our website or keeping our accounts in check, Layal's got the knack for making things look good and run smoothly. With her on board, we're turning boring old data into exciting stories that'll have you hooked!",
   url = "https://lclettry.com",
   img_alt = "A girl.",
   link_text = "lclettry.com"
