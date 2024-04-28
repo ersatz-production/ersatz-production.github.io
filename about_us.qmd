@@ -21,7 +21,7 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 # Copyright to djnavarro: https://github.com/djnavarro/djnavarro.github.io/blob/main/index.qmd
 add_card <- function(src, title, subtitle, text, url, link_text, img_alt) {
   lines <- c(
-    '<div class="g-col-18 g-col-md-9 g-col-xl-18">',
+    '<div class="g-col-18 g-col-md-9 g-col-xl-9">',
     '<div class="card h-100">',
     paste0(
       '<a href="', 
