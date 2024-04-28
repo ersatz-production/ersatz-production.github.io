@@ -2,16 +2,12 @@
 page-layout: full
 ---
 
-::: banner
-![](image/profile.jpg){.circular width="250px" fig-align="center" alt="Logo of Ersatz Production."}
-
-::: centered
+::: {style="text-align: center;"}
 # Ersatz Production
 
 **Going Beyond Established Frameworks**
 
 Based in Switzerland
-:::
 :::
 
 ```{r}
@@ -88,8 +84,6 @@ add_card(
 )
 ```
 :::
-
-
 
 <!-- verification -->
 

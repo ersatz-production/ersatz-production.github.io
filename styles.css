@@ -1,1 +1,4 @@
 /* css styles */
+.circular {
+  border-radius: 50%;
+}
