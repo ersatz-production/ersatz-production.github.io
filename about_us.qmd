@@ -57,10 +57,7 @@ add_card(
   src = "image/avatar-rani.png",
   title = "Rani", 
   subtitle = "Creation",
-  text = "Rani embarked on his discovery of filmmaking by studying cinema in Seoul, South Korea. 
-  These days, he's working as a freelance translator. 
-  When he's not lost in translation, you might catch him casually flipping through literary and philosophical works, trying in vain to make sense of them, or tinkering on the piano or on his computer, making up music – or noise, depending on who you ask. And when the day winds down, he's all about gaming into the wee hours of the night.
-The discovery of new experiences and impressions through diverse art forms and media is what interests Rani and what he wishes to convey through his own works.",
+  text = "Rani embarked on his discovery of filmmaking by studying cinema in Seoul, South Korea. Now working as a freelance translator, he spends his free time creating music – or noise – on the piano or computer, gaming late into the night, and delving into literature and philosophy. The discovery of new experiences and impressions through diverse art forms and media is what interests him and what he wishes to convey through his own works.",
   url = "https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A",
   img_alt = "An avatar of a man with a beard.",
   link_text = "www.swissfilms.ch"
