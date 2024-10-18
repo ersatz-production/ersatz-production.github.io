@@ -38,6 +38,17 @@ website:
         text: Terms and Conditions
   site-url: https://ersatzproduction.com
   repo-url: https://github.com/ersatz-production/ersatz-production.github.io
+  body-header: |
+    ::::{.column-screen}
+    ![](image/profile.png)
+    
+    :::{.banner-text}
+    # Andrew Zieffler
+    Academic. Data lover. Statistics enthusiast.
+    :::
+    
+    ::::  
+    <br />
   open-graph: true
   search: true
   
