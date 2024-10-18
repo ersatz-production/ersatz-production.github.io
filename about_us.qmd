@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-image: image/profile.jpg
+image: image/profile.png
 about:
   template: jolla
   links:

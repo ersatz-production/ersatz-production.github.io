@@ -3,7 +3,7 @@ page-layout: full
 ---
 
 ::: banner
-![](image/profile.jpg){.circular width="250px" fig-align="center" alt="Logo of Ersatz Production."}
+<!-- ![](image/profile.png){.circular width="250px" fig-align="center" alt="Logo of Ersatz Production."} -->
 
 ::: centered
 # Ersatz Production
@@ -79,7 +79,7 @@ add_card(
 )
 
 add_card(
-  src = "image/profile.jpg",
+  src = "image/profile.png",
   title = "Ersatz Production GitHub", 
   text = "Explore our GitHub Organisation!",
   url = "https://github.com/ersatz-production",
