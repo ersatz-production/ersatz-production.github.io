@@ -1,6 +1,29 @@
 ---
-page-layout: full
+title: "Ersatz Production"
+title-block-banner: true
+format: 
+  html:
+    code-fold: true
+    page-layout: full
+    fig_caption: yes
 ---
+
+<style>
+
+#title-block-header {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -1px;
+  height: 75px;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -30px;
+  height: 85%;
+}
+</style>
 
 ::: banner
 <!-- ![](image/profile.png){.circular width="250px" fig-align="center" alt="Logo of Ersatz Production."} -->
