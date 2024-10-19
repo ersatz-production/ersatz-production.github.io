@@ -15,7 +15,6 @@ It was founded in 2024 by four people from different professional backgrounds, b
 
 Whether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.
 
-
 ```{r}
 #| echo: false
 # Copyright to djnavarro: https://github.com/djnavarro/djnavarro.github.io/blob/main/index.qmd
@@ -104,8 +103,6 @@ Enjoying animated and superhero movies, Layal's passion shines through in her wo
 )
 ```
 :::
-
-
 
 <!-- verification -->
 

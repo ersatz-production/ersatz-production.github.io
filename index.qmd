@@ -8,6 +8,7 @@ format:
     fig_caption: yes
 ---
 
+```{=html}
 <style>
 
 #title-block-header {
@@ -24,7 +25,7 @@ format:
   height: 85%;
 }
 </style>
-
+```
 ::: banner
 <!-- ![](image/profile.png){.circular width="250px" fig-align="center" alt="Logo of Ersatz Production."} -->
 
@@ -111,8 +112,6 @@ add_card(
 )
 ```
 :::
-
-
 
 <!-- verification -->
 
