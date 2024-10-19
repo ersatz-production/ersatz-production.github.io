@@ -6,7 +6,6 @@ website:
   description: "Make your dreams come true"
   page-navigation: true
   reader-mode: true  
-  favicon: "image/profile.jpeg"
   navbar:
     title: "Ersatz Production"
     background: "#1F80EF"
