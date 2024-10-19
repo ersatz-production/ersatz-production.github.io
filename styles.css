@@ -26,9 +26,11 @@
 }
 
 .image-text-container img {
-  max-width: 50%;  /* Adjust the percentage as needed */
+  max-width: 100%;  /* Adjust the percentage as needed to adjust the size of the image*/
   height: auto;
-  margin-right: 20px; /* Space between image and text */
+  margin-right: 75px; /* Space between image and text */
+  padding-left: 25px;  /* Adjust this value for padding */
+  padding-right: 25px; /* Adjust this value for padding */
 }
 
 .image-text-container .text {
@@ -42,11 +44,19 @@
 }
 
 .image-text-container-reverse img {
-  max-width: 50%;
+  max-width: 100%; /* Adjust the percentage as needed to adjust the size of the image*/
   height: auto;
-  margin-left: 20px; /* Space between image and text */
+  margin-left: 50px; /* Space between image and text */
+  padding-left: 25px;  /* Adjust this value for padding */
+  padding-right: 25px; /* Adjust this value for padding */
 }
 
 .image-text-container-reverse .text {
   flex: 1;
+}
+
+/* Custom class for no margins */
+.no-margin {
+  margin: 0px;              /* No margin around the page content */
+  padding: 0px;            /* Add padding to the content */
 }
