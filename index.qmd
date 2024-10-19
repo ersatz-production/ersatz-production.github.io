@@ -6,14 +6,6 @@ format:
     code-fold: true
     page-layout: full
     fig_caption: yes
-    include-in-header:
-      - text: |
-          <link rel="icon" type="image/png" href="/image/favicon/favicon-48x48.png" sizes="48x48" />
-          <link rel="icon" type="image/svg+xml" href="/image/favicon/favicon.svg" />
-          <link rel="shortcut icon" href="/image/favicon/favicon.ico" />
-          <link rel="apple-touch-icon" sizes="180x180" href="/image/favicon/apple-touch-icon.png" />
-          <meta name="apple-mobile-web-app-title" content="Ersatz Production" />
-          <link rel="manifest" href="/image/favicon/site.webmanifest" />
 ---
 
 ```{=html}
