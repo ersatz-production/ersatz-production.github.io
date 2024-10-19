@@ -21,8 +21,8 @@ format:
 .quarto-title-banner {
   margin-block-end: 1rem;
   position: relative;
-  margin-top: -30px;
-  height: 85%;
+  margin-top: 0px;
+  height: 250%;
 }
 </style>
 ```
@@ -30,88 +30,12 @@ format:
 <!-- ![](image/profile.png){.circular width="250px" fig-align="center" alt="Logo of Ersatz Production."} -->
 
 ::: centered
-# Ersatz Production
 
 **Going Beyond Established Frameworks**
 
 Based in Switzerland
 :::
-:::
 
-```{r}
-#| echo: false
-# Copyright to djnavarro: https://github.com/djnavarro/djnavarro.github.io/blob/main/index.qmd
-add_card <- function(src, title, text, url, link_text, img_alt) {
-  lines <- c(
-    '<div class="g-col-12 g-col-md-6 g-col-xl-4">',
-    '<div class="card h-100">',
-    paste0(
-      '<a href="', 
-      url, 
-      '"><img src="', 
-      src, 
-      '"',
-      'alt = "',
-      img_alt,
-      '"',
-      'class="card-img-top"></a>'
-    ),
-    '<div class="card-body">',
-    paste0('<h2 class="card-title">', title, '</h2>'),
-    paste0('<p class="card-text">', text, '</p>'),
-    '</div>',
-    '<div class="card-footer">',
-    paste0('<a href="', url, '" class="btn btn-primary">', link_text, '</a>'),
-    '</div>',
-    '</div>',
-    '</div>'
-  )
-  cat(lines, sep="\n")
-}
-```
-
-::: grid
-```{r cards}
-#| echo: false
-#| results: asis
-
-add_card(
-  src = "image/unnameable_pic.png",
-  title = "The Unnameable (L’Innommable)", 
-  text = "The day of his 33rd birthday, a man is told he is about to be a father.
-Upon hearing this news, he leaves. A journey then begins and, through improbable encounters and situations, he will learn about his surroundings and about himself.",
-  url = "https://vimeo.com/129663366",
-  img_alt = "A man in front of a forest",
-  link_text = "vimeo.com/129663366"
-)
-add_card(
-  src = "image/morituri_pic.png",
-  title = "Morituri Podcast", 
-  text = "Morituri Podcast, le podcast qui te propose d’intellectualiser ce qui ne devrait jamais l’être en partant des morts les plus insolites de l'histoire.",
-  url = "https://morituripodcast.buzzsprout.com",
-  img_alt = "Heartbeat cardiogram with 'Morituri Podcast' written next to it",
-  link_text = "morituripodcast.buzzsprout.com"
-)
-
-add_card(
-  src = "image/cryptofacto_pic.png",
-  title = "Crypto Facto Podcast", 
-  text = "Bienvenue sur Crypto Facto, le podcast qui vous fait (re)découvrir les protocoles blockchains et les crypto-monnaies. Je partage ce que je comprends et ce que je fais pour que ce soit aussi utile au plus grand nombre. Au programme, des petits épisodes pour poser quelques bases, des dossiers complets sur des protocoles et des entretiens de partage d'expérience. Merci d'être passé par là et bonne écoute.",
-  url = "https://cryptofacto.buzzsprout.com",
-  img_alt = "A blond man an over a green background.",
-  link_text = "cryptofacto.buzzsprout.com"
-)
-
-add_card(
-  src = "image/profile.png",
-  title = "Ersatz Production GitHub", 
-  text = "Explore our GitHub Organisation!",
-  url = "https://github.com/ersatz-production",
-  img_alt = "Ersatz Production Logo",
-  link_text = "github.com/ersatz-production"
-)
-```
-:::
 
 <!-- verification -->
 
