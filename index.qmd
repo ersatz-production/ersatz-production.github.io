@@ -1,33 +1,26 @@
----
-title: "Our Project"
-title-block-banner: true
-format: 
-  html:
-    code-fold: true
-    page-layout: full
-    fig_caption: yes
----
 
-```{=html}
-<style>
 
-#title-block-header {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: -1px;
-  height: 75px;
-}
+::: image-text-container
+![](image/index/mains.jpeg)
 
-.quarto-title-banner {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: 0px;
-  height: 250%;
-}
-</style>
+::: text
+```         
+This is some text on the right side of the image.
 ```
+:::
+:::
 
+------------------------------------------------------------------------
 
+::: image-text-container-reverse
+![](image/index/cafes.jpeg)
+
+::: text
+```         
+This is some text on the left side of the image.
+```
+:::
+:::
 
 <!-- verification -->
 

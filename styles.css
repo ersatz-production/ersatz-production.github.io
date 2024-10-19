@@ -18,3 +18,35 @@
   max-height: 80px; /* Adjust this value to make the logo larger */
   width: auto;      /* Maintain aspect ratio */
 }
+
+/*  Image on the left and right and text in the other side */
+.image-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-text-container img {
+  max-width: 50%;  /* Adjust the percentage as needed */
+  height: auto;
+  margin-right: 20px; /* Space between image and text */
+}
+
+.image-text-container .text {
+  flex: 1;
+}
+
+.image-text-container-reverse {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse; /* This swaps the image and text positions */
+}
+
+.image-text-container-reverse img {
+  max-width: 50%;
+  height: auto;
+  margin-left: 20px; /* Space between image and text */
+}
+
+.image-text-container-reverse .text {
+  flex: 1;
+}
