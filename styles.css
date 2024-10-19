@@ -12,3 +12,9 @@
 .navbar-brand {
     font-size: 30px; /* Adjust the brand size */
 }
+
+/* Adjust the size of the logo */
+.navbar-brand img {
+  max-height: 80px; /* Adjust this value to make the logo larger */
+  width: auto;      /* Maintain aspect ratio */
+}
