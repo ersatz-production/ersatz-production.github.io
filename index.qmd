@@ -1,5 +1,5 @@
 ---
-title: "Ersatz Production"
+title: "Our Project"
 title-block-banner: true
 format: 
   html:
@@ -26,15 +26,7 @@ format:
 }
 </style>
 ```
-::: banner
-<!-- ![](image/profile.png){.circular width="250px" fig-align="center" alt="Logo of Ersatz Production."} -->
 
-::: centered
-
-**Going Beyond Established Frameworks**
-
-Based in Switzerland
-:::
 
 
 <!-- verification -->

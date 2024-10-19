@@ -4,13 +4,13 @@ project:
 website:
   title: "Ersatz Production"
   description: "Make your dreams come true"
-  page-navigation: false
-  reader-mode: false  
-  favicon: "image/favicon/apple-touch-icon.png"
+  page-navigation: true
+  reader-mode: true  
+  favicon: "image/profile.jpeg"
   navbar:
-    title: false
+    title: "Ersatz Production"
     background: "#1F80EF"
-    logo: "image/favicon/apple-touch-icon.png"
+    logo: "image/profile.jpeg"
     right:
       - href: about_us.qmd
         text: About Us
@@ -38,8 +38,6 @@ website:
         text: Terms and Conditions
   site-url: https://ersatzproduction.com
   repo-url: https://github.com/ersatz-production/ersatz-production.github.io
-  margin-header: |
-    ![](image/profile.png)
   open-graph: true
   search: true
   
@@ -51,7 +49,14 @@ format:
     css: styles.css
     toc: true
     include-after-body: plausible.html
-
+    include-in-header:
+    - text: |
+        <link rel="icon" type="image/png" href="/image/favicon/favicon-48x48.png" sizes="48x48" />
+        <link rel="icon" type="image/svg+xml" href="/image/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="/image/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/image/favicon/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="Ersatz Production" />
+        <link rel="manifest" href="/image/favicon/site.webmanifest" />
 editor: source
 execute:
   freeze: auto

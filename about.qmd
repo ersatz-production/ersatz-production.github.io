@@ -1,6 +1,6 @@
 ---
 title: "About This Website"
-image: image/profile.png
+image: image/profile.jpeg
 about:
   template: jolla
   links:
