@@ -49,6 +49,11 @@ format:
     toc: true
     include-after-body: plausible.html
     include-before-body: _include.html
+    grid:
+      sidebar-width: 100px
+      body-width: 1300px
+      margin-width: 100px
+      gutter-width: 1.5rem
 editor: source
 execute:
   freeze: auto

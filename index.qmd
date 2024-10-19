@@ -3,7 +3,7 @@
 ::: {.image-text-container}
 ![](image/index/mains.jpeg)
 
-This is some text on the right side of the image. You can adjust the size and layout by controlling the CSS. This is some text on the right side of the image. You can adjust the size and layout by controlling the CSS.This is some text on the right side of the image. You can adjust the size and layout by controlling the CSS.This is some text on the right side of the image. You can adjust the size and layout by controlling the CSS.This is some text on the right side of the image. You can adjust the size and layout by controlling the CSS.This is some text on the right side of the image. You can adjust the size and layout by controlling the CSS.This is some text on the right side of the image. You can adjust the size and layout by controlling the CSS.This is some text on the right side of the image. You can adjust the size and layout by controlling the CSS.
+This is some text on the right side of the image.This is some text on the right side of the image.This is some text on the right side of the image.This is some text on the right side of the image.This is some text on the right side of the image.This is some text on the right side of the image.
 :::
 :::
 
@@ -11,7 +11,7 @@ This is some text on the right side of the image. You can adjust the size and la
 ::: {.image-text-container-reverse}
 ![](image/index/cafes.jpeg)
 
-This is some text on the left side of the image.
+This is some text on the left side of the image. This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.
 :::
 :::
 
