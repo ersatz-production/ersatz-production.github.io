@@ -22,45 +22,57 @@
 /*  Image on the left and right and text in the other side */
 .image-text-container {
   display: flex;
-  align-items: center;
+  align-items: center; /* Aligns items vertically */
+  justify-content: center; /* Aligns items horizontally */
+  margin: 20px 0; /* Adds some space around the container */
   text-align: justify;
 }
 
 .image-text-container img {
-  margin-right: 75px; /* Space between image and text */
+  margin-right: 15px; /* Space between image and text */
+  margin-left: -25px; /* Space between image and text */
+
   padding-left: 25px;  /* Adjust this value for padding */
   padding-right: 25px; /* Adjust this value for padding */
   
   flex-shrink: 0;    /* Prevent the image from shrinking */
   min-width: 300px;  /* Set a minimum width for the image */
-  max-width: 70%;    /* Ensure the image doesn't take up more than 50% of the container */
+  max-width: 100%;    /* Ensure the image doesn't take up more than 50% of the container */
   height: auto;      /* Maintain aspect ratio */
 }
 
 .image-text-container .text {
-  flex: 1;
+   max-width: 600px; /* Limits the width of the text area */
+   line-height: 1.5; /* Improves readability */
+   font-size: 16px; /* Adjust font size as needed */
+   color: #333; /* Text color */
 }
 
 .image-text-container-reverse {
   display: flex;
-  align-items: center;
+  align-items: center; /* Aligns items vertically */
   flex-direction: row-reverse; /* This swaps the image and text positions */
+  justify-content: center; /* Aligns items horizontally */
+  margin: 20px 0; /* Adds some space around the container */
   text-align: justify;
 }
 
 .image-text-container-reverse img {
-  margin-left: 250px; /* Space between image and text */
+  margin-left: 30px; /* Space between image and text */
   padding-left: 25px;  /* Adjust this value for padding */
   padding-right: 25px; /* Adjust this value for padding */
   
   flex-shrink: 0;    /* Prevent the image from shrinking */
   min-width: 300px;  /* Set a minimum width for the image */
-  max-width: 75%;    /* Ensure the image doesn't take up more than 50% of the container */
+  max-width: 100%;    /* Ensure the image doesn't take up more than 50% of the container */
   height: auto;      /* Maintain aspect ratio */
 }
 
 .image-text-container-reverse .text {
-  flex: 0;
+  max-width: 600px; /* Limits the width of the text area */
+  line-height: 1.5; /* Improves readability */
+  font-size: 16px; /* Adjust font size as needed */
+  color: #333; /* Text color */
 }
 
 /* Custom class for no margins */
