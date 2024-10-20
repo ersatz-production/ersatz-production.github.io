@@ -75,8 +75,3 @@
   color: #333; /* Text color */
 }
 
-/* Custom class for no margins */
-.no-margin {
- margin: 0px;              /* No margin around the page content */
- padding: 0px;            /* Add padding to the content */
-}
