@@ -1,19 +1,21 @@
 
-<!-- ::: {.no-margin} -->
 ::: {.image-text-container}
 ![](image/index/mains.jpeg)
 
-This is some text on the right side of the image.This is some text on the right side of the image.This is some text on the right side of the image.This is some text on the right side of the image.This is some text on the right side of the image.This is some text on the right side of the image.
+Our production company stands out for its open-mindedness, fostering an inclusive and collaborative approach that encourages the exchange of new ideas. 
+We value boldness and innovation, essential drivers for pushing boundaries and creating creative, visionary solutions. 
+Transparency is at the heart of our practices, ensuring honest and clear communication with our partners and clients. 
+Integrity guides every action we take, ensuring relationships built on trust and ethics. 
+Lastly, our eclecticism allows us to draw from a diversity of influences and expertise, enriching each of our initiatives to offer unique and inspiring experiences.
 :::
-<!-- ::: -->
 
-<!-- ::: {.no-margin} -->
 ::: {.image-text-container-reverse}
 ![](image/index/cafes.jpeg)
 
-This is some text on the left side of the image. This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.This is some text on the left side of the image.
+We aim to encourage young talents, promoting originality and ensuring the quality of projects by removing all societal and/or commercial constraints and expectations. 
+We also guide original works towards their target audience, fostering meaningful connections between creators and their viewers.
 :::
-<!-- ::: -->
+
 
 
 
