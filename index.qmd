@@ -1,4 +1,4 @@
-
+## Values
 ::: {.image-text-container}
 ![](image/index/mains.jpeg)
 
@@ -12,6 +12,7 @@ Integrity guides every action we take, ensuring relationships built on trust and
 Lastly, our eclecticism allows us to draw from a diversity of influences and expertise, enriching each of our initiatives to offer unique and inspiring experiences.
 :::
 
+## Vision
 ::: {.image-text-container-reverse}
 ![](image/index/telescope.jpeg)
 
@@ -20,6 +21,7 @@ We aim to encourage young talents, promoting originality and ensuring the qualit
 We also guide original works towards their target audience, fostering meaningful connections between creators and their viewers.
 :::
 
+## Mission
 ::: {.image-text-container}
 ![](image/index/cafes.jpeg)
 
