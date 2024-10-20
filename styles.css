@@ -36,7 +36,7 @@
   padding-right: 25px; /* Adjust this value for padding */
   
   flex-shrink: 0;    /* Prevent the image from shrinking */
-  min-width: 300px;  /* Set a minimum width for the image */
+  min-width: 650px;  /* Set a minimum width for the image */
   max-width: 100%;    /* Ensure the image doesn't take up more than 50% of the container */
   height: auto;      /* Maintain aspect ratio */
 }
@@ -63,7 +63,7 @@
   padding-right: 25px; /* Adjust this value for padding */
   
   flex-shrink: 0;    /* Prevent the image from shrinking */
-  min-width: 300px;  /* Set a minimum width for the image */
+  min-width: 650px;  /* Set a minimum width for the image */
   max-width: 100%;    /* Ensure the image doesn't take up more than 50% of the container */
   height: auto;      /* Maintain aspect ratio */
 }
