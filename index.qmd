@@ -2,17 +2,21 @@
 ::: {.image-text-container}
 ![](image/index/mains.jpeg)
 
-Our production company stands out for its open-mindedness, fostering an inclusive and collaborative approach that encourages the exchange of new ideas. 
-We value boldness and innovation, essential drivers for pushing boundaries and creating creative, visionary solutions. 
-Transparency is at the heart of our practices, ensuring honest and clear communication with our partners and clients. 
-Integrity guides every action we take, ensuring relationships built on trust and ethics. 
+Our production company stands out for its open-mindedness, fostering an inclusive and collaborative approach that encourages the exchange of new ideas. \
+\
+We value boldness and innovation, essential drivers for pushing boundaries and creating creative, visionary solutions.
+Transparency is at the heart of our practices, ensuring honest and clear communication with our partners and clients. \
+\
+Integrity guides every action we take, ensuring relationships built on trust and ethics. \
+\
 Lastly, our eclecticism allows us to draw from a diversity of influences and expertise, enriching each of our initiatives to offer unique and inspiring experiences.
 :::
 
 ::: {.image-text-container-reverse}
 ![](image/index/cafes.jpeg)
 
-We aim to encourage young talents, promoting originality and ensuring the quality of projects by removing all societal and/or commercial constraints and expectations. 
+We aim to encourage young talents, promoting originality and ensuring the quality of projects by removing all societal and/or commercial constraints and expectations. \
+\
 We also guide original works towards their target audience, fostering meaningful connections between creators and their viewers.
 :::
 
