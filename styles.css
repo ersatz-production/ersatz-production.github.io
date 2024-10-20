@@ -74,3 +74,16 @@
   line-height: 1.5; /* Improves readability */
 }
 
+/* Add asterisks before title */
+/*h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before {
+  content: url("image/asterisques.png");
+  display: inline-block;
+  margin-right: 10px;
+  width: -5px; /* Adjust the width as per your requirement */
+/*  height: 50px; /* Adjust the height as per your requirement */
+/*}
