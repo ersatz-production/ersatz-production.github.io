@@ -1,4 +1,89 @@
-/* css styles */
-.circular {
-  border-radius: 50%;
+/* Increase the height of the navbar */
+.navbar {
+    height: 100px; /* Adjust the height as needed */
 }
+
+/* Change the size of the navbar links */
+.navbar .nav-link {
+    font-size: 26px; /* Adjust the font size */
+}
+
+/* Adjust the logo or brand size if you have one */
+.navbar-brand {
+    font-size: 30px; /* Adjust the brand size */
+}
+
+/* Adjust the size of the logo */
+.navbar-brand img {
+  max-height: 80px; /* Adjust this value to make the logo larger */
+  width: auto;      /* Maintain aspect ratio */
+}
+
+/*  Image on the left and right and text in the other side */
+.image-text-container {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  justify-content: center; /* Aligns items horizontally */
+  margin: 20px 0; /* Adds some space around the container */
+  text-align: justify;
+  font-size: 24px; /* Adjust font size as needed */
+  
+}
+
+.image-text-container img {
+  margin-right: 15px; /* Space between image and text */
+  margin-left: -25px; /* Space between image and text */
+
+  padding-left: 25px;  /* Adjust this value for padding */
+  padding-right: 25px; /* Adjust this value for padding */
+  
+  flex-shrink: 0;    /* Prevent the image from shrinking */
+  min-width: 650px;  /* Set a minimum width for the image */
+  max-width: 100%;    /* Ensure the image doesn't take up more than 50% of the container */
+  height: auto;      /* Maintain aspect ratio */
+}
+
+.image-text-container .text {
+   max-width: 600px; /* Limits the width of the text area */
+   line-height: 1.5; /* Improves readability */
+}
+
+.image-text-container-reverse {
+  display: flex;
+  align-items: center; /* Aligns items vertically */
+  flex-direction: row-reverse; /* This swaps the image and text positions */
+  justify-content: center; /* Aligns items horizontally */
+  margin: 20px 0; /* Adds some space around the container */
+  text-align: justify;
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.image-text-container-reverse img {
+  margin-left: 30px; /* Space between image and text */
+  padding-left: 25px;  /* Adjust this value for padding */
+  padding-right: 25px; /* Adjust this value for padding */
+  
+  flex-shrink: 0;    /* Prevent the image from shrinking */
+  min-width: 650px;  /* Set a minimum width for the image */
+  max-width: 100%;    /* Ensure the image doesn't take up more than 50% of the container */
+  height: auto;      /* Maintain aspect ratio */
+}
+
+.image-text-container-reverse .text {
+  max-width: 600px; /* Limits the width of the text area */
+  line-height: 1.5; /* Improves readability */
+}
+
+/* Add asterisks before title */
+/*h1:before,
+h2:before,
+h3:before,
+h4:before,
+h5:before,
+h6:before {
+  content: url("image/asterisques.png");
+  display: inline-block;
+  margin-right: 10px;
+  width: -5px; /* Adjust the width as per your requirement */
+/*  height: 50px; /* Adjust the height as per your requirement */
+/*}
