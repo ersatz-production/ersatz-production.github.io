@@ -32,8 +32,6 @@ This includes an iterative process, from brainstorming and putting ideas on pape
 We also assist with securing funding, handling the full production cycle (pre-production, production, post-production), and integrating the artist into a professional network, ensuring their work thrives in the creative industry.
 :::
 
-
-
 <!-- verification -->
 
 <a rel="me" style="display:none" href="https://github.com/ersatz-production">Hidden link used to verify my account on GitHub</a>
