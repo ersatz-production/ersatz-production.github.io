@@ -1,88 +1,35 @@
----
-page-layout: full
----
+## Values
+::: {.image-text-container}
+![](image/index/mains.jpeg)
 
-::: {style="text-align: center;"}
-# Ersatz Production
-
-**Going Beyond Established Frameworks**
-
-Based in Switzerland
+Our production company stands out for its open-mindedness, fostering an inclusive and collaborative approach that encourages the exchange of new ideas. \
+\
+We value boldness and innovation, essential drivers for pushing boundaries and creating creative, visionary solutions.
+Transparency is at the heart of our practices, ensuring honest and clear communication with our partners and clients. \
+\
+Integrity guides every action we take, ensuring relationships built on trust and ethics. \
+\
+Lastly, our eclecticism allows us to draw from a diversity of influences and expertise, enriching each of our initiatives to offer unique and inspiring experiences.
 :::
 
-```{r}
-#| echo: false
-# Copyright to djnavarro: https://github.com/djnavarro/djnavarro.github.io/blob/main/index.qmd
-add_card <- function(src, title, text, url, link_text, img_alt) {
-  lines <- c(
-    '<div class="g-col-12 g-col-md-9 g-col-xl-6">',
-    '<div class="card h-100">',
-    paste0(
-      '<a href="', 
-      url, 
-      '"><img src="', 
-      src, 
-      '"',
-      'alt = "',
-      img_alt,
-      '"',
-      'class="card-img-top"></a>'
-    ),
-    '<div class="card-body">',
-    paste0('<h2 class="card-title">', title, '</h2>'),
-    paste0('<p class="card-text">', text, '</p>'),
-    '</div>',
-    '<div class="card-footer">',
-    paste0('<a href="', url, '" class="btn btn-primary">', link_text, '</a>'),
-    '</div>',
-    '</div>',
-    '</div>'
-  )
-  cat(lines, sep="\n")
-}
-```
+## Vision
+::: {.image-text-container-reverse}
+![](image/index/telescope.jpeg)
 
-::: grid
-```{r cards}
-#| echo: false
-#| results: asis
+We aim to encourage young talents, promoting originality and ensuring the quality of projects by removing all societal and/or commercial constraints and expectations. \
+\
+We also guide original works towards their target audience, fostering meaningful connections between creators and their viewers.
+:::
 
-add_card(
-  src = "image/unnameable_pic.png",
-  title = "The Unnameable (L’Innommable)", 
-  text = "The day of his 33rd birthday, a man is told he is about to be a father.
-Upon hearing this news, he leaves. A journey then begins and, through improbable encounters and situations, he will learn about his surroundings and about himself.",
-  url = "https://vimeo.com/129663366",
-  img_alt = "A man in front of a forest",
-  link_text = "vimeo.com/129663366"
-)
-add_card(
-  src = "image/morituri_pic.png",
-  title = "Morituri Podcast", 
-  text = "Morituri Podcast, le podcast qui te propose d’intellectualiser ce qui ne devrait jamais l’être en partant des morts les plus insolites de l'histoire.",
-  url = "https://morituripodcast.buzzsprout.com",
-  img_alt = "Heartbeat cardiogram with 'Morituri Podcast' written next to it",
-  link_text = "morituripodcast.buzzsprout.com"
-)
+## Mission
+::: {.image-text-container}
+![](image/index/cafes.jpeg)
 
-add_card(
-  src = "image/cryptofacto_pic.png",
-  title = "Crypto Facto Podcast", 
-  text = "Bienvenue sur Crypto Facto, le podcast qui vous fait (re)découvrir les protocoles blockchains et les crypto-monnaies. Je partage ce que je comprends et ce que je fais pour que ce soit aussi utile au plus grand nombre. Au programme, des petits épisodes pour poser quelques bases, des dossiers complets sur des protocoles et des entretiens de partage d'expérience. Merci d'être passé par là et bonne écoute.",
-  url = "https://cryptofacto.buzzsprout.com",
-  img_alt = "A blond man an over a green background.",
-  link_text = "cryptofacto.buzzsprout.com"
-)
-
-add_card(
-  src = "image/profile.jpg",
-  title = "Ersatz Production GitHub", 
-  text = "Explore our GitHub Organisation!",
-  url = "https://github.com/ersatz-production",
-  img_alt = "Ersatz Production Logo",
-  link_text = "github.com/ersatz-production"
-)
-```
+We manage your project from A to Z, guiding it through every phase. \
+\
+This includes an iterative process, from brainstorming and putting ideas on paper to structuring them effectively. \
+\
+We also assist with securing funding, handling the full production cycle (pre-production, production, post-production), and integrating the artist into a professional network, ensuring their work thrives in the creative industry.
 :::
 
 <!-- verification -->

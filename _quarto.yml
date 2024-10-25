@@ -4,13 +4,12 @@ project:
 website:
   title: "Ersatz Production"
   description: "Make your dreams come true"
-  page-navigation: false
-  reader-mode: false  
-  favicon: "image/favicon/apple-touch-icon.png"
+  page-navigation: true
+  reader-mode: true  
   navbar:
-    title: false
-    background: "#069999"
-    logo: "image/favicon/apple-touch-icon.png"
+    title: "Ersatz Production"
+    background: "#1F80EF"
+    logo: "image/profile.jpeg"
     right:
       - href: about_us.qmd
         text: About Us
@@ -49,8 +48,13 @@ format:
     css: styles.css
     toc: true
     include-after-body: plausible.html
-
-editor: visual
+    include-before-body: _include.html
+    grid:
+      sidebar-width: 100px
+      body-width: 1300px
+      margin-width: 100px
+      gutter-width: 1.5rem
+editor: source
 execute:
   freeze: auto
 
