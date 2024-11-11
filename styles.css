@@ -193,14 +193,33 @@ h6:before {
     overflow-y: auto; /* Enable vertical scrolling */
     max-height: 80vh; /* Limit height to 80% of viewport height */
     -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    font-size: 16px; /* Base font size for desktop */
 }
 
 .hero-content p {
     margin: 15px 0;
     line-height: 1.6;
-    font-size: 1.35em;
+    font-size: 1.35em; /* Relative to parent font-size */
 }
 
 .hero-content strong {
     color: #fff;  /* Make bold text white too */
+}
+
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .hero-content {
+        font-size: 14px;
+        max-width: 90%; /* Wider content area on tablets */
+        padding: 15px;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .hero-content {
+        font-size: 12px;
+        max-width: 95%; /* Even wider on phones */
+        padding: 10px;
+    }
 }
