@@ -13,8 +13,8 @@ website:
     right:
       - href: about_us.qmd
         text: About Us
-      - href: projects.qmd
-        text: Projects
+      - href: history.qmd
+        text: History
       - href: contact.qmd
         text: Contact
         
@@ -47,6 +47,8 @@ format:
       dark: darkly
     css: styles.css
     toc: true
+    toc-location: right
+    toc-expand: true
     include-after-body: plausible.html
     include-before-body: _include.html
     grid:

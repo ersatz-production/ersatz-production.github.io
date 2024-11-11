@@ -1,18 +1,7 @@
 ---
-title: "Projects"
+title: "History"
 ---
   
-## Current Projects
-
-### Vincent Lettry
-
-#### CRYPTO FACTO 
-- Podcast, 104 episodes, 2023 – today
-- Written, Directed, Produced, Edited, Voice
-- Internet Link: <https://cryptofacto.buzzsprout.com>
-  
-## Past Projects
-
 ### Vincent Lettry
 
 #### MORITURI PODCAST
