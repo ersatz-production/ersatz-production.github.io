@@ -17,12 +17,12 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 ::: {.hero-content style="text-align: left"}
 ### Current Projects
 #### **CRYPTO FACTO by Vincent Lettry**
-::: {style="font-size: 22px"}
+
+::: {.project-details}
 - Podcast, 104 episodes, 2023 – today
 - Written, Directed, Produced, Edited, Voice
 - Internet Link: <https://cryptofacto.buzzsprout.com>
 :::
-
 
 :::
 :::

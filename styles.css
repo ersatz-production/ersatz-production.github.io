@@ -49,6 +49,25 @@
     }
 }
 
+/* Project details responsive font sizing */
+.project-details {
+    font-size: 1rem; /* Base size */
+}
+
+/* For tablets */
+@media screen and (max-width: 768px) {
+    .project-details {
+        font-size: 0.9rem;
+    }
+}
+
+/* For mobile phones */
+@media screen and (max-width: 480px) {
+    .project-details {
+        font-size: 0.8rem;
+    }
+}
+
 /*  Image on the left and right and text in the other side */
 .image-text-container {
   display: flex;
