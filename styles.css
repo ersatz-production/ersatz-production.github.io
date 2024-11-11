@@ -10,13 +10,35 @@
 
 /* Adjust the logo or brand size if you have one */
 .navbar-brand {
-    font-size: 24px; /* Adjust the brand size */
+    font-size: 24px; /* Default brand size for desktop */
 }
 
 /* Adjust the size of the logo */
 .navbar-brand img {
-  max-height: 80px; /* Adjust this value to make the logo larger */
-  width: auto;      /* Maintain aspect ratio */
+    max-height: 80px; /* Default logo height for desktop */
+    width: auto;
+}
+
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    
+    .navbar-brand img {
+        max-height: 60px;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+    
+    .navbar-brand img {
+        max-height: 40px;
+    }
 }
 
 /*  Image on the left and right and text in the other side */
