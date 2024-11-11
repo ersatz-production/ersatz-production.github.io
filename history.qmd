@@ -1,5 +1,6 @@
 ---
 title: "History"
+css: styles.css
 ---
   
 ### Vincent Lettry
@@ -19,58 +20,45 @@ title: "History"
   
   
 ### Rani Gillioz
-<!-- Internet Link to access the complete portfolio: <https://vimeo.com/showcase/3035516> -->
-  
-<!-- As the videos are private, please enter the following password to view them. Password: portfolio2024 -->
-  
+
 #### DEMONS
 - Official music video for Demons by Desmond, 5 min. 47 sec., 2016
 - Directed, Produced, Shot, Edited
-<!-- - Internet Link: <https://www.youtube.com/watch?v=-2pybXsnrkc> -->
   
 #### THE UNNAMEABLE
 - Self-produced and self-financed feature film, 99 min., 2014
 - Directed, Produced, Written, Shot, Edited, Music
-<!-- - Internet Link to the Feature Film: <http://vimeo.com/ranigillioz/innommable> -->
 - Internet Link to the Trailer: <https://vimeo.com/ranigillioz/linnommable-trailer>
   
 #### THE ANT THAT SWALLOWED THE SUN
 - Graduation feature film, 98 min., 2010
 - Directed, Produced, Written, Shot, Edited, Music
-<!-- - Internet Link: <http://vimeo.com/ranigillioz/lafourmi> -->
   
 #### Mr. COWARD
 - Mini fiction short film, 2 min. 20 sec., 2010
 - Directed, Written, Shot, Edited, Music
-<!-- - Internet Link: <http://vimeo.com/ranigillioz/mrcoward> -->
   
 #### NEONS
 - Official music video for I believe in love at first sight by Neons, 3 min. 38 sec., 2010
 - Directed, Shot, Edited
-<!-- - Internet Link: <http://vimeo.com/ranigillioz/neons> -->
   
 #### [drink me]
 - Documentary short film, 21 min., 2008
 - Directed, Shot, Edited, Music
-<!-- - Internet Link: <http://vimeo.com/ranigillioz/drinkme> -->
   
 #### CELLOPHANE, THREADS AND MILK
 - Unofficial music video for Solitaire by Notwist, 4 min., 2008
 - Directed, Shot, Edited
-<!-- - Internet Link: <http://vimeo.com/ranigillioz/cellophane> -->
   
 #### THIS IS MILK. THIS IS TREE.
 - Fiction short film, 8 min., 2008
 - Directed, Written, Shot, Edited, Music
-<!-- - Internet Link: <http://vimeo.com/ranigillioz/milkandtree> -->
   
 #### BODY
 - Fiction short film, 20 min., 2008
 - Directed, Produced, Written, Shot, Edited
-<!-- - Internet Link: <http://vimeo.com/ranigillioz/body> -->
   
 #### SOMETIMES, MY CAT LIKES ME…
 - Experimental short film, 30 min., 2007
 - Directed, Produced, Written, Shot, Edited, Music
-<!-- - Internet Link: <http://vimeo.com/ranigillioz/monchat> -->
   

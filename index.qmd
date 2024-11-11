@@ -1,26 +1,31 @@
----
-title: "Ersatz Production"
----
+::: {.hero-section style="margin-bottom: 2rem"}
+![](image/index-image.jpeg){width=100%}
 
-::: {.image-text-container-reverse}
-![](image/index-image.jpeg)
-
-::: {.text}
+::: {.hero-content style="text-align: left"}
 Ersatz Production is a production company (association) based in Fribourg, Switzerland.
 
 It was founded in 2024 by four people from different professional backgrounds, but united by a common desire: **Going Beyond Established Frameworks**.
 
 Whether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.
+
 :::
 :::
 
-# Projects
+::: {.hero-section}
+![](image/projects-line.jpeg){width=100%}
 
-## CRYPTO FACTO by Vincent Lettry
+::: {.hero-content style="text-align: left"}
+### Current Projects
+#### **CRYPTO FACTO by Vincent Lettry**
+::: {style="font-size: 22px"}
 - Podcast, 104 episodes, 2023 – today
 - Written, Directed, Produced, Edited, Voice
 - Internet Link: <https://cryptofacto.buzzsprout.com>
+:::
 
+
+:::
+:::
 
 <!-- verification -->
 
