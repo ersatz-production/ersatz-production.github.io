@@ -1,35 +1,30 @@
-## Values
-::: {.image-text-container}
-![](image/index/mains.jpeg)
+::: {.hero-section style="margin-bottom: 2rem"}
+![](image/index-image.jpeg){width=100%}
 
-Our production company stands out for its open-mindedness, fostering an inclusive and collaborative approach that encourages the exchange of new ideas. \
-\
-We value boldness and innovation, essential drivers for pushing boundaries and creating creative, visionary solutions.
-Transparency is at the heart of our practices, ensuring honest and clear communication with our partners and clients. \
-\
-Integrity guides every action we take, ensuring relationships built on trust and ethics. \
-\
-Lastly, our eclecticism allows us to draw from a diversity of influences and expertise, enriching each of our initiatives to offer unique and inspiring experiences.
+::: {.hero-content style="text-align: left"}
+Ersatz Production is a production company (association) based in Fribourg, Switzerland.
+
+It was founded in 2024 by four people from different professional backgrounds, but united by a common desire: **Going Beyond Established Frameworks**.
+
+Whether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.
+
+:::
 :::
 
-## Vision
-::: {.image-text-container-reverse}
-![](image/index/telescope.jpeg)
+::: {.hero-section}
+![](image/projects-line.jpeg){width=100%}
 
-We aim to encourage young talents, promoting originality and ensuring the quality of projects by removing all societal and/or commercial constraints and expectations. \
-\
-We also guide original works towards their target audience, fostering meaningful connections between creators and their viewers.
+::: {.hero-content style="text-align: left"}
+### Current Projects
+#### **CRYPTO FACTO by Vincent Lettry**
+::: {style="font-size: 22px"}
+- Podcast, 104 episodes, 2023 – today
+- Written, Directed, Produced, Edited, Voice
+- Internet Link: <https://cryptofacto.buzzsprout.com>
 :::
 
-## Mission
-::: {.image-text-container}
-![](image/index/cafes.jpeg)
 
-We manage your project from A to Z, guiding it through every phase. \
-\
-This includes an iterative process, from brainstorming and putting ideas on paper to structuring them effectively. \
-\
-We also assist with securing funding, handling the full production cycle (pre-production, production, post-production), and integrating the artist into a professional network, ensuring their work thrives in the creative industry.
+:::
 :::
 
 <!-- verification -->
