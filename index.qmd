@@ -1,3 +1,17 @@
+---
+title: "Ersatz Production"
+title-block-banner: true
+format: 
+  html:
+    code-fold: true
+    page-layout: full
+    fig_caption: yes
+    include-in-header:
+      text: |
+        <link rel="icon" type="image/jpeg" href="image/profile.jpeg">
+        <link rel="shortcut icon" type="image/jpeg" href="image/profile.jpeg">
+---
+
 ::: {.hero-section style="margin-bottom: 2rem"}
 ![](image/index-image.jpeg)
 
