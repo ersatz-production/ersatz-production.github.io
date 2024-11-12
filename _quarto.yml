@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Ersatz Production"
+  favicon: "image/profile.jpeg"
   description: "Make your dreams come true"
   page-navigation: true
   reader-mode: true  
