@@ -3,14 +3,14 @@ project:
 
 website:
   title: "Ersatz Production"
-  favicon: "image/profile.jpeg"
+  favicon: "image/our_logo.jpeg"
   description: "Make your dreams come true"
   page-navigation: true
   reader-mode: true  
   navbar:
     title: "Ersatz Production"
     background: "#1F80EF"
-    logo: "image/profile.jpeg"
+    logo: "image/our_logo.jpeg"
     right:
       - href: about_us.qmd
         text: About Us
@@ -59,6 +59,6 @@ format:
       gutter-width: 1.5rem
 editor: source
 execute:
-  freeze: auto
+  freeze: true
 
 
