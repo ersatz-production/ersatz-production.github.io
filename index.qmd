@@ -1,5 +1,5 @@
 ::: {.hero-section style="margin-bottom: 2rem"}
-![](image/index-image.jpeg){width=100%}
+![](image/index-image.jpeg)
 
 ::: {.hero-content style="text-align: left"}
 Ersatz Production is a production company (association) based in Fribourg, Switzerland.
@@ -12,7 +12,7 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 :::
 
 ::: {.hero-section}
-![](image/projects-line.jpeg){width=100%}
+![](image/projects-line.jpeg)
 
 ::: {.hero-content style="text-align: left"}
 ### Current Projects
