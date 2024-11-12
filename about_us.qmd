@@ -48,7 +48,7 @@ add_card <- function(src, title, subtitle, text, url, link_text, img_alt) {
 #| results: asis
 
 add_card(
-  src = "image/avatar-rani.png",
+  src = "images/avatar-rani.png",
   title = "Rani", 
   subtitle = "Creation",
   text = "Rani embarked on his discovery of filmmaking by studying cinema in Seoul, South Korea. Now working as a freelance translator, he spends his free time creating music – or noise – on the piano or computer, gaming late into the night, and delving into literature and philosophy. The discovery of new experiences and impressions through diverse art forms and media is what interests him and what he wishes to convey through his own works.",
@@ -58,7 +58,7 @@ add_card(
 )
 
 add_card(
-  src = "image/vincent_profile.jpg",
+  src = "images/vincent_profile.jpg",
   title = "Vincent", 
   subtitle = "Communication & Creation",
   text = "Meet Vincent, our resident storyteller. 
@@ -71,7 +71,7 @@ With a penchant for psychological thrillers and the allure of unanswered questio
 
 
 add_card(
-  src = "image/matthias_profile.jpeg",
+  src = "images/matthias_profile.jpeg",
   title = "Matthias", 
   subtitle = "Creation",
   text = "Working mainly as a modern art dealer with a background in filmaking, ranging from film analysis to screenwriting as well as acting, Matthias' intend is to merge his array of skills for the benefit of helping the creation of original works, free of conventions and pre-made ideas.",
@@ -82,7 +82,7 @@ add_card(
 
 
 add_card(
-  src = "image/lclettry_profile.jpg",
+  src = "images/lclettry_profile.jpg",
   title = "Layal", 
   subtitle = "Organisation",
   text = "Meet Layal, our data magician! She's all about bringing data to life with a dash of creativity and a sprinkle of magic. 

@@ -141,7 +141,7 @@ h3:before,
 h4:before,
 h5:before,
 h6:before {
-  content: url("image/asterisques.png");
+  content: url("images/asterisques.png");
   display: inline-block;
   margin-right: 10px;
   width: -5px; /* Adjust the width as per your requirement */
