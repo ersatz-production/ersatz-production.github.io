@@ -4,7 +4,11 @@
 ::: {.hero-content style="text-align: left"}
 Ersatz Production is a production company (association) based in Fribourg, Switzerland.
 
-It was founded in 2024 by four people from different professional backgrounds, but united by a common desire: **Going Beyond Established Frameworks**.
+It was founded in 2024 by four people from different professional backgrounds, but united by a common desire.
+
+<div style="text-align: center; font-size: 1.5em; font-style: italic; margin: 1.5rem 0;">
+**Going Beyond Established Frameworks**
+</div>
 
 Whether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.
 
