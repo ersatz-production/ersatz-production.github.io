@@ -1,6 +1,4 @@
 ---
-title: "Ersatz Production"
-title-block-banner: true
 format: 
   html:
     code-fold: true
