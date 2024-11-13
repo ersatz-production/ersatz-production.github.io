@@ -218,8 +218,7 @@ h6:before {
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    .intro-text,
-    .mission-statement {
+    .index-text {
         font-size: 1.2rem;
         padding: 1.5rem;
     }
