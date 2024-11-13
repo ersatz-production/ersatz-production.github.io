@@ -365,6 +365,7 @@ h6:before {
 @media screen and (max-width: 480px) {
     .project-grid {
         grid-template-columns: 1fr; /* Change to a single column to take full width */
+        max-width: 480px; /* Set max width to 480px for mobile screens */
     }
 }
 
