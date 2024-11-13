@@ -215,14 +215,27 @@ h6:before {
     padding: 2rem;
 }
 
-
-/* Responsive adjustments */
+/* Tablet devices */
 @media screen and (max-width: 768px) {
     .index-text {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        max-width: 90%;
         padding: 1.5rem;
+        line-height: 1.6;
     }
 }
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .index-text {
+        font-size: 1.1rem;
+        max-width: 95%;
+        padding: 1rem;
+        line-height: 1.5;
+    }
+}
+
+
 
 .project-card {
     background: rgba(0,0,0,0.05);
@@ -303,10 +316,7 @@ h6:before {
     }
 }
 
-.intro-text {
-    max-width: 80%;
-    margin: 0 auto;
-}
+
 /* Overall layout */
 .filmography {
     max-width: 800px;

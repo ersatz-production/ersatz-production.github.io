@@ -21,8 +21,6 @@ website:
         
   page-footer:
     left: 
-      - href: about.qmd
-        text: About This Website
       - icon: github
         href: https://github.com/ersatz-production/ersatz-production.github.io
         text: GitHub Repository

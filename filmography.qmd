@@ -42,7 +42,7 @@ css: styles.css
 ::: {.project-details}
 - Self-produced and self-financed feature film, 99 min., 2014
 - Directed, Produced, Written, Shot, Edited, Music
-- Internet Link to the Trailer: <https://vimeo.com/ranigillioz/linnommable-trailer>
+- [Internet Link to the Trailer](https://vimeo.com/ranigillioz/linnommable-trailer)
 :::
 :::
 
