@@ -14,8 +14,8 @@ website:
     right:
       - href: about_us.qmd
         text: About Us
-      - href: history.qmd
-        text: History
+      - href: filmography.qmd
+        text: Filmography
       - href: contact.qmd
         text: Contact
         
@@ -43,9 +43,7 @@ website:
   
 format:
   html:
-    theme: 
-      light: sandstone
-      dark: darkly
+    theme: darkly
     css: styles.css
     toc: true
     toc-location: right
