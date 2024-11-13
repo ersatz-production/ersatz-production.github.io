@@ -324,6 +324,7 @@ h6:before {
     border-radius: 8px; /* Adjust border-radius to match .project */
     transition: transform 0.2s ease; /* Add transition for hover effect */
     font-size: 1.4rem; /* Set font size to match .project-details for desktop */
+    text-align: center; /* Center the text */
 }
 
 .project-card:hover {
