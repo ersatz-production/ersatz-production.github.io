@@ -34,7 +34,7 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 ::: {.project-grid}
 
 ::: {.project-card}
-### **CRYPTO FACTO**
+### ![](images/crypto-facto_petit.jpg)
 #### *by Vincent Lettry*
 
 ::: {.project-details}
@@ -45,7 +45,7 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 :::
 
 ::: {.project-card}
-### **SI LES MORTS POUVAIENT PARLER**
+### ![](images/si-les-morts-pouvaient-parler.jpg)
 #### *by Vincent Lettry*
 
 ::: {.project-details}
