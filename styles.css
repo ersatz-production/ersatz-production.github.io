@@ -205,69 +205,6 @@ h6:before {
     color: #333;  /* Optional: customize the color */
 }
 
-.hero-section {
-    position: relative;
-    width: 100vw;
-    height: 500px;
-    overflow: hidden;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-}
-
-.hero-section img {
-    position: absolute;
-    width: 100vw;
-    height: 100%;
-    object-fit: cover;
-    filter: brightness(0.7);
-    left: 0;
-    right: 0;
-}
-
-.hero-content {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    max-width: 800px;
-    padding: 20px;
-    background-color: transparent;
-    border-radius: 8px;
-    overflow-y: auto; /* Enable vertical scrolling */
-    max-height: 80vh; /* Limit height to 80% of viewport height */
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-    font-size: 16px; /* Base font size for desktop */
-}
-
-.hero-content p {
-    margin: 15px 0;
-    line-height: 1.6;
-    font-size: 1.35em; /* Relative to parent font-size */
-}
-
-.hero-content strong {
-    color: #fff;  /* Make bold text white too */
-}
-
-/* Tablet devices */
-@media screen and (max-width: 768px) {
-    .hero-content {
-        font-size: 14px;
-        max-width: 90%; /* Wider content area on tablets */
-        padding: 15px;
-    }
-}
-
-/* Mobile devices */
-@media screen and (max-width: 480px) {
-    .hero-content {
-        font-size: 12px;
-        max-width: 95%; /* Even wider on phones */
-        padding: 10px;
-    }
-}
 
 .index-text {
     font-size: 1.5rem;
@@ -301,23 +238,71 @@ h6:before {
   padding: 2rem;
 }
 
+
 .hero-section {
-  margin-bottom: 3rem;
-  position: relative;
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    overflow: hidden;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+
+.hero-section img {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+    left: 0;
+    right: 0;
 }
 
 .hero-content {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0,0,0,0.7);
-  padding: 2rem;
-  border-radius: 5px;
-  width: 80%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 8px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 80vh; /* Limit height to 80% of viewport height */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    font-size: 16px; /* Base font size for desktop */
 }
 
+.hero-content p {
+    margin: 15px 0;
+    line-height: 1.6;
+    font-size: 1.35em; /* Relative to parent font-size */
+}
+
+.hero-content strong {
+    color: #fff;  /* Make bold text white too */
+}
+
+
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .hero-content {
+        font-size: 14px;
+        max-width: 90%; /* Wider content area on tablets */
+        padding: 15px;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .hero-content {
+        font-size: 12px;
+        max-width: 95%; /* Even wider on phones */
+        padding: 10px;
+    }
+}
 
 .intro-text {
     max-width: 80%;
