@@ -318,15 +318,32 @@ h6:before {
 
 
 .project-card {
-    background: #f8f8f8; /* Match the background color of .project */
+    background: #1a1a1a; /* Dark theme background color */
+    color: #ffffff; /* Changed text color to white as in .index-text style */
     padding: 1.5rem; /* Adjust padding to match .project */
     border-radius: 8px; /* Adjust border-radius to match .project */
     transition: transform 0.2s ease; /* Add transition for hover effect */
+    font-size: 1.4rem; /* Set font size to match .project-details for desktop */
 }
 
 .project-card:hover {
     transform: translateX(10px); /* Add hover effect similar to .project */
     box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Add shadow on hover */
+}
+
+
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .project-card {
+        font-size: 1.2rem; /* Match font size for tablets */
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .project-card {
+        font-size: 1rem; /* Match font size for mobile */
+    }
 }
 
 .project-grid {
