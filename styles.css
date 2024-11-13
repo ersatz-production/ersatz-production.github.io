@@ -1,6 +1,6 @@
 /* Increase the height of the navbar */
 .navbar {
-    height: 100px; /* Adjust the height as needed */
+    height: 110px; /* Adjust the height as needed */
 }
 
 /* Change the size of the navbar links */
@@ -15,7 +15,7 @@
 
 /* Adjust the size of the logo */
 .navbar-brand img {
-    max-height: 80px; /* Default logo height for desktop */
+    max-height: 110px; /* Default logo height for desktop */
     width: auto;
 }
 
