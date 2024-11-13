@@ -2,6 +2,12 @@
 ![](images/index-image.jpeg)
 
 ::: {.hero-content style="text-align: left"}
+### Our Association
+:::
+
+:::
+
+
 Ersatz Production is a production company (association) based in Fribourg, Switzerland.
 
 It was founded in 2024 by four people from different professional backgrounds, but united by a common desire.
@@ -12,14 +18,14 @@ It was founded in 2024 by four people from different professional backgrounds, b
 
 Whether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.
 
-:::
-:::
-
 ::: {.hero-section}
 ![](images/projects-line.jpeg)
 
 ::: {.hero-content style="text-align: left"}
 ### Current Projects
+:::
+:::
+
 #### **CRYPTO FACTO by Vincent Lettry**
 
 ::: {.project-details}
@@ -28,6 +34,7 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 - Internet Link: <https://cryptofacto.buzzsprout.com>
 :::
 
+
 #### **SI LES MORTS POUVAIENT PARLER by Vincent Lettry**
 
 ::: {.project-details}
@@ -35,8 +42,6 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 - Written, Directed, Produced, Edited
 :::
 
-:::
-:::
 
 <!-- verification -->
 

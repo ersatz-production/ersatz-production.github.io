@@ -251,7 +251,7 @@ h6:before {
     color: white;
     max-width: 800px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: transparent;
     border-radius: 8px;
     overflow-y: auto; /* Enable vertical scrolling */
     max-height: 80vh; /* Limit height to 80% of viewport height */
