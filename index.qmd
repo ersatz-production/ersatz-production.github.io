@@ -34,10 +34,10 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 ::: {.project-grid}
 
 ::: {.project-card}
-### **CRYPTO FACTO**
-#### *by Vincent Lettry*
+### ![](images/crypto-facto_petit.jpg)
 
 ::: {.project-details}
+- Created by Vincent Lettry
 - Podcast, 104 episodes, 2023 – today
 - Written, Directed, Produced, Edited, Voice
 - [Listen Now](https://cryptofacto.buzzsprout.com){.button}
@@ -45,10 +45,10 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 :::
 
 ::: {.project-card}
-### **SI LES MORTS POUVAIENT PARLER**
-#### *by Vincent Lettry*
+### ![](images/si-les-morts-pouvaient-parler.jpg)
 
 ::: {.project-details}
+- Created by Vincent Lettry
 - Audio fiction, 2025
 - Written, Directed, Produced, Edited
 :::
