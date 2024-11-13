@@ -1,9 +1,9 @@
-::: {.hero-section style="margin-bottom: 3rem; position: relative"}
+::: {.hero-section}
 ![](images/index-image.jpeg)
 
-::: {.hero-content style="text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); padding: 2rem; border-radius: 5px; width: 80%"}
+::: {.hero-content}
 # ERSATZ PRODUCTION
-### Going Beyond Established Frameworks
+### *« Going Beyond Established Frameworks »*
 :::
 :::
 
@@ -17,32 +17,32 @@ Founded in 2024 by four visionaries from different professional backgrounds, uni
 Whether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.
 :::
 
-::: {.hero-section style="margin-bottom: 3rem; position: relative"}
+::: {.hero-section}
 ![](images/projects-line.jpeg)
 
-::: {.hero-content style="text-align: center; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); padding: 2rem; border-radius: 5px; width: 80%"}
+::: {.hero-content}
 # CURRENT PROJECTS
 :::
 :::
 
-::: {.project-grid style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; padding: 2rem"}
+::: {.project-grid}
 
-::: {.project-card style="background: rgba(0,0,0,0.05); padding: 2rem; border-radius: 10px"}
+::: {.project-card}
 ### **CRYPTO FACTO**
 #### *by Vincent Lettry*
 
-::: {.project-details style="margin-top: 1rem"}
+::: {.project-details}
 - Podcast, 104 episodes, 2023 – today
 - Written, Directed, Produced, Edited, Voice
-- [Listen Now](https://cryptofacto.buzzsprout.com){.button style="display: inline-block; padding: 0.5rem 1rem; background: #333; color: white; text-decoration: none; border-radius: 5px; margin-top: 1rem"}
+- [Listen Now](https://cryptofacto.buzzsprout.com){.button}
 :::
 :::
 
-::: {.project-card style="background: rgba(0,0,0,0.05); padding: 2rem; border-radius: 10px"}
+::: {.project-card}
 ### **SI LES MORTS POUVAIENT PARLER**
 #### *by Vincent Lettry*
 
-::: {.project-details style="margin-top: 1rem"}
+::: {.project-details}
 - Audio fiction, 2025
 - Written, Directed, Produced, Edited
 :::

@@ -313,3 +313,37 @@ h6:before {
         padding: 1.5rem;
     }
 }
+
+.project-card {
+    background: rgba(0,0,0,0.05);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.hero-section {
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.hero-content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.7);
+  padding: 2rem;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.project-details {
+  margin-top: 1rem;
+}
