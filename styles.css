@@ -354,6 +354,20 @@ h6:before {
   padding: 2rem;
 }
 
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .project-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
 /* Project details */
 .project-details {
     margin-left: 1rem;
