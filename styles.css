@@ -236,21 +236,6 @@ h6:before {
 }
 
 
-
-.project-card {
-    background: rgba(0,0,0,0.05);
-    padding: 2rem;
-    border-radius: 10px;
-}
-
-.project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-}
-
-
 .hero-section {
     position: relative;
     width: 100vw;
@@ -329,6 +314,26 @@ h6:before {
     margin: 0 0 1rem 0;
     color: #1a1a1a;
     font-size: 1.4rem;
+}
+
+
+.project-card {
+    background: #f8f8f8; /* Match the background color of .project */
+    padding: 1.5rem; /* Adjust padding to match .project */
+    border-radius: 8px; /* Adjust border-radius to match .project */
+    transition: transform 0.2s ease; /* Add transition for hover effect */
+}
+
+.project-card:hover {
+    transform: translateX(10px); /* Add hover effect similar to .project */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Add shadow on hover */
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
 }
 
 /* Project details */
