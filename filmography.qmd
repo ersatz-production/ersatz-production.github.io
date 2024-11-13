@@ -1,85 +1,113 @@
 ---
-title: "History"
+title: "Filmography"
 css: styles.css
 ---
-  
-# Vincent Lettry
 
+::: {.filmography}
+
+## Vincent Lettry {.creator}
+
+::: {.project}
 ### MORITURI PODCAST
 ::: {.project-details}
 - Podcast, 15 episodes, 2022-2023
 - Written, Directed, Produced, Voice
-- Internet Link: <https://morituripodcast.buzzsprout.com>
+- [Listen on Buzzsprout](https://morituripodcast.buzzsprout.com)
 :::
-  
-# Matthias Klee
+:::
 
+## Matthias Klee {.creator}
+
+::: {.project}
 ### MORITURI PODCAST
 ::: {.project-details}
 - Podcast, 15 episodes, 2022-2023
 - Written, Directed, Produced, Edited, Voice
-- Internet Link: <https://morituripodcast.buzzsprout.com>
+- [Listen on Buzzsprout](https://morituripodcast.buzzsprout.com)
 :::
-  
-# Rani Gillioz
+:::
 
+## Rani Gillioz {.creator}
+
+::: {.project}
 ### DEMONS
 ::: {.project-details}
 - Official music video for Demons by Desmond, 5 min. 47 sec., 2016
 - Directed, Produced, Shot, Edited
- :::
+:::
+:::
 
+::: {.project}
 ### THE UNNAMEABLE
 ::: {.project-details}
 - Self-produced and self-financed feature film, 99 min., 2014
 - Directed, Produced, Written, Shot, Edited, Music
 - Internet Link to the Trailer: <https://vimeo.com/ranigillioz/linnommable-trailer>
 :::
+:::
 
+::: {.project}
 ### THE ANT THAT SWALLOWED THE SUN
 ::: {.project-details}
 - Graduation feature film, 98 min., 2010
 - Directed, Produced, Written, Shot, Edited, Music
 :::
+:::
 
+::: {.project}
 ### Mr. COWARD
 ::: {.project-details}
 - Mini fiction short film, 2 min. 20 sec., 2010
 - Directed, Written, Shot, Edited, Music
 :::
+:::
 
+::: {.project}
 ### NEONS
 ::: {.project-details}
 - Official music video for I believe in love at first sight by Neons, 3 min. 38 sec., 2010
 - Directed, Shot, Edited
 :::
+:::
 
+::: {.project}
 ### [drink me]
 ::: {.project-details}
 - Documentary short film, 21 min., 2008
 - Directed, Shot, Edited, Music
 :::
+:::
 
+::: {.project}
 ### CELLOPHANE, THREADS AND MILK
 ::: {.project-details}
 - Unofficial music video for Solitaire by Notwist, 4 min., 2008
 - Directed, Shot, Edited
 :::
+:::
 
+::: {.project}
 ### THIS IS MILK. THIS IS TREE.
 ::: {.project-details}
 - Fiction short film, 8 min., 2008
 - Directed, Written, Shot, Edited, Music
 :::
+:::
 
+::: {.project}
 ### BODY
 ::: {.project-details}
 - Fiction short film, 20 min., 2008
 - Directed, Produced, Written, Shot, Edited
 :::
+:::
 
+::: {.project}
 ### SOMETIMES, MY CAT LIKES ME...
 ::: {.project-details}
 - Experimental short film, 30 min., 2007
 - Directed, Produced, Written, Shot, Edited, Music
+:::
+:::
+
 :::

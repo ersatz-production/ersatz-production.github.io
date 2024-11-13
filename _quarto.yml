@@ -14,8 +14,8 @@ website:
     right:
       - href: about_us.qmd
         text: About Us
-      - href: history.qmd
-        text: History
+      - href: filmography.qmd
+        text: Filmography
       - href: contact.qmd
         text: Contact
         

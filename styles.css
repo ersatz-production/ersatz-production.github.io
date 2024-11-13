@@ -354,3 +354,92 @@ h6:before {
     max-width: 80%;
     margin: 0 auto;
 }
+/* Overall layout */
+.filmography {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Creator sections */
+.creator {
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* Softer border for dark mode */
+    font-size: 1.8rem;
+    color: #e1e1e1; /* Light gray text for dark mode */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow for depth */
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition for color changes */
+}
+
+/* Optional hover effect */
+.creator:hover {
+    border-bottom-color: rgba(255, 255, 255, 0.4); /* Slightly brighter border on hover */
+    color: #ffffff; /* Pure white text on hover */
+}
+
+/* Project sections */
+.project {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f8f8f8;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.project:hover {
+    transform: translateX(10px);
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+/* Project titles */
+.project h3 {
+    margin: 0 0 1rem 0;
+    color: #1a1a1a;
+    font-size: 1.4rem;
+}
+
+/* Project details */
+.project-details {
+    margin-left: 1rem;
+}
+
+.project-details ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-details li {
+    margin: 0.5rem 0;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+/* Links */
+a {
+    color: #2c5282;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #1a365d;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .filmography {
+        padding: 1rem;
+    }
+    
+    .creator {
+        font-size: 1.5rem;
+    }
+    
+    .project {
+        padding: 1rem;
+    }
+}
