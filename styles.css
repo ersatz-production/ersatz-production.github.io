@@ -364,7 +364,7 @@ h6:before {
 /* Mobile devices */
 @media screen and (max-width: 480px) {
     .project-grid {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: 1fr; /* Change to a single column to take full width */
     }
 }
 
