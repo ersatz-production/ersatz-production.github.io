@@ -255,6 +255,35 @@ h6:before {
     right: 0;
 }
 
+
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .hero-section {
+        width: 150%;  /* Reduced width for better tablet display */
+        height: 400px;  /* Slightly smaller height */
+        margin-left: calc(-25vw + 25%);
+        margin-right: calc(-25vw + 25%);
+    }
+    
+    .hero-section img {
+        width: 150%;  /* Match container width */
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .hero-section {
+        width: 100%;  /* Full width for mobile */
+        height: 300px;  /* Even smaller height */
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .hero-section img {
+        width: 100%;  /* Match container width */
+    }
+}
+
 .hero-content {
     position: relative;
     top: 50%;
