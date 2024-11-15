@@ -256,34 +256,6 @@ h6:before {
 }
 
 
-/* Tablet devices */
-@media screen and (max-width: 768px) {
-    .hero-section {
-        width: 100vw;  /* Reduced width for better tablet display */
-        height: 400px;  /* Slightly smaller height */
-        margin-left: calc(-25vw + 25%);
-        margin-right: calc(-25vw + 25%);
-    }
-    
-    .hero-section img {
-        width: 100vw;  /* Match container width */
-    }
-}
-
-/* Mobile devices */
-@media screen and (max-width: 480px) {
-    .hero-section {
-        width: 100vw;  /* Full width for mobile */
-        height: 300px;  /* Even smaller height */
-        margin-left: 0;
-        margin-right: 0;
-    }
-    
-    .hero-section img {
-        width: 100vw;  /* Match container width */
-    }
-}
-
 .hero-content {
     position: relative;
     top: 50%;
