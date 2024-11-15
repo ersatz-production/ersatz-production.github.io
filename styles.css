@@ -238,7 +238,7 @@ h6:before {
 
 .hero-section {
     position: relative;
-    width: 100vw;
+    width: 200%;
     height: 500px;
     overflow: hidden;
     margin-left: calc(-50vw + 50%);
@@ -247,7 +247,7 @@ h6:before {
 
 .hero-section img {
     position: absolute;
-    width: 100vw;
+    width: 200%;
     height: 100%;
     object-fit: cover;
     filter: brightness(0.7);
