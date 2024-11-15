@@ -5,7 +5,7 @@ website:
   favicon: "images/our_logo.jpg"
   description: "Ersatz Production"
   page-navigation: true
-  reader-mode: true  
+  reader-mode: false  
   navbar:
     background: "#1F80EF"
     logo: "images/our_logo.jpg"
