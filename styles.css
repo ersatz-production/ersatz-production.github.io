@@ -31,6 +31,41 @@ pre, code {
 }
 
 /* ==========================================================================
+   Fonts
+   ========================================================================== */
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/* Set global font families */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+pre, code {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+/* Update decorative elements to use the same font */
+.character-name,
+.opening-credits h1,
+.opening-credits .tagline,
+.creator,
+.navbar-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Adjust specific text elements */
+.project-card,
+.hero-content,
+.scene-details {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
    Navigation
    ========================================================================== */
 .navbar {
@@ -53,9 +88,50 @@ pre, code {
     width: auto;
 }
 
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    
+    .navbar-brand img {
+        max-height: 70px;
+    }
+    
+    .navbar .nav-link {
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        color: #333; /* Dark gray text color for better contrast */
+        padding: 8px 15px;
+        border-radius: 4px;
+        margin: 5px 0;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+    grid-area: auto;
+    .navbar-brand img {
+        max-height: 50px;
+    }
+    
+    .navbar .nav-link {
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        color: #333; /* Dark gray text color for better contrast */
+        padding: 6px 12px;
+        border-radius: 4px;
+        margin: 3px 0;
+    }
+}
+
 /* ==========================================================================
    Hero Section
    ========================================================================== */
+
 .hero-section {
     position: relative;
     width: 105vw;
@@ -123,6 +199,9 @@ pre, code {
         padding: 10px;
     }
 }
+/* ==========================================================================
+   Filmography
+   ========================================================================== */
 
 /* Overall layout */
 .filmography {
@@ -243,6 +322,7 @@ pre, code {
 /* ==========================================================================
    Links
    ========================================================================== */
+
 a {
     color: #0d6efd;
     text-decoration: none;
@@ -272,6 +352,7 @@ a:hover {
 /* ==========================================================================
    Creator Sections
    ========================================================================== */
+
 .creator {
     margin-top: 3rem;
     padding-bottom: 1rem;
@@ -291,6 +372,7 @@ a:hover {
 /* ==========================================================================
    Project Sections
    ========================================================================== */
+
 .project {
     margin: 2rem 0;
     padding: 1.5rem;
@@ -339,6 +421,7 @@ a:hover {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
+
 
 /* Tablet devices - Landscape */
 @media screen and (max-width: 768px) and (orientation: landscape) {
@@ -411,6 +494,392 @@ a:hover {
         gap: 1rem;
         padding: 1rem;
     }
+}
+
+/* ==========================================================================
+   Film-inspired styling
+   ========================================================================== */
+.film-strip {
+  text-align: center;
+  padding: 2rem 0;
+  background: #000;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.scene-wrapper {
+  margin: 4rem 0;
+  padding: 2rem;
+  background: linear-gradient(to right, #000, #111, #000);
+}
+
+.scene {
+  display: flex;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #fff;
+}
+
+.scene-visual {
+  flex: 0 0 40%;
+}
+
+.portrait {
+  width: 100%;
+  height: auto;
+  filter: grayscale(20%);
+  transition: filter 0.3s ease;
+}
+
+.portrait:hover {
+  filter: grayscale(0%);
+}
+
+.scene-details {
+  flex: 1;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.character-name {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.role {
+  font-size: 1.2rem;
+  color: #gold;
+  margin: 0.5rem 0 1.5rem;
+  font-style: italic;
+}
+
+.character-arc {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.credits-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.credits-link:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .scene {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .scene-visual {
+    flex: 0 0 100%;
+  }
+}
+
+/* ==========================================================================
+   Film Effects
+   ========================================================================== */
+   .film-grain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyBAMAAADsEZWCAAAAGFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVfJ/YAAAACHRSTlMzMzMzMzMzM85JBgUAAAABYktHRAH/Ai3eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QUcCDsxwwQYBAAAAEBJREFUOMtjYBgFgwwwKjAwMEJpAQYGBlUGBghbAMoW0IRSQ1paCgsLC0NDQ0NLS0tLS0tLS01NTU1NTU1NTU0NAO4UCqdRBvn9AAAAAElFTkSuQmCC');
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: 1000;
+    animation: grain 8s steps(10) infinite;
+}
+
+/* ==========================================================================
+   Scene Components
+   ========================================================================== */
+.scene-wrapper {
+    margin: 8rem 0;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 1s ease;
+}
+
+.scene {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.3));
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* ==========================================================================
+   Image Text Layouts
+   ========================================================================== */
+.image-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.image-text-container-reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 24px;
+}
+
+/* ==========================================================================
+   Project Grid
+   ========================================================================== */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.project-card {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.project-card h3 {
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+@keyframes grain {
+    0%, 100% { transform: translate(0, 0) }
+    10% { transform: translate(-5%, -5%) }
+    20% { transform: translate(-10%, 5%) }
+    30% { transform: translate(5%, -10%) }
+    40% { transform: translate(-5%, 15%) }
+    50% { transform: translate(-10%, 5%) }
+    60% { transform: translate(15%, 0) }
+    70% { transform: translate(0, 10%) }
+    80% { transform: translate(-15%, 0) }
+    90% { transform: translate(10%, 5%) }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.opening-credits {
+    padding: 4rem 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+.title-card {
+    display: inline-block;
+    padding: 2rem;
+    border: 2px solid #333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+.opening-credits h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+    letter-spacing: 0.2em;
+}
+  
+.opening-credits .tagline {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .opening-credits {
+        padding: 3rem 0;
+    }
+    
+    .title-card {
+        padding: 1.5rem;
+    }
+    
+    .opening-credits h1 {
+        font-size: 3rem;
+        letter-spacing: 0.15em;
+    }
+    
+    .opening-credits .tagline {
+        font-size: 1.2rem;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .opening-credits {
+        padding: 2rem 0;
+    }
+    
+    .title-card {
+        padding: 1rem;
+        border-width: 1px;
+    }
+    
+    .opening-credits h1 {
+        font-size: 2rem;
+        letter-spacing: 0.1em;
+    }
+    
+    .opening-credits .tagline {
+        font-size: 1rem;
+    }
+}
+
+.character-name {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* ==========================================================================
+   Index Text
+   ========================================================================== */
+
+   .index-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .index-text {
+        font-size: 1.3rem;
+        max-width: 90%;
+        padding: 1.5rem;
+        line-height: 1.6;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .index-text {
+        font-size: 1.1rem;
+        max-width: 95%;
+        padding: 1rem;
+        line-height: 1.5;
+    }
+}
+
+
+/* ==========================================================================
+   Table of Contents
+   ========================================================================== */
+/* Style all levels of TOC links */
+.sidebar nav[role=doc-toc] ul li a {
+    font-size: 18px;  /* Adjust this value for TOC font size */
+    white-space: normal;  /* Allow text to wrap */
+    word-wrap: break-word;
+    display: inline-block;
+    width: 100%;         /* Use full width available */
+}
+
+/* Optional: Style different levels differently */
+.sidebar nav[role=doc-toc] > ul > li > a {
+    font-size: 20px;  /* Larger font for first level */
+}
+
+.sidebar nav[role=doc-toc] > ul > li > ul > li > a {
+    font-size: 18px;  /* Slightly smaller for second level */
+}
+
+.sidebar-navigation {
+    width: 350px;
+    max-width: 100%;
+    margin-left: -20px;  /* Move the entire sidebar to the left */
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.sidebar nav[role=doc-toc] ul > li > a.active {
+    border-left: 1px solid #0d6efd;
+    color: #0d6efd !important;
+}
+
+/* Add some spacing between TOC items */
+.sidebar nav[role=doc-toc] ul li {
+    margin: 8px 0;
+}
+
+/* Move TOC to the left */
+.sidebar {
+    margin-left: -100px !important;  /* Force override with !important */
+    padding-left: 0;
+}
+
+.content-with-sidebar {
+    margin-left: 380px;  /* Adjust based on your sidebar width */
+}
+
+/* Ensure TOC width and content */
+.sidebar-navigation {
+    width: 350px;
+    max-width: 100%;
+}
+
+#TOC {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    max-width: 100%;
+}
+
+/* Style the TOC title */
+.sidebar nav[role=doc-toc] > h2 {
+    font-size: 24px;  /* Adjust this value to make it bigger */
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;  /* Optional: customize the color */
 }
 
 /* ==========================================================================
