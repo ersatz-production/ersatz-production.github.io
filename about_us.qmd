@@ -4,9 +4,6 @@ format:
   html:
     css: styles.css
     toc: false
-    include-in-header:
-      text: |
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 ---
 
 ::: {.film-grain}
@@ -14,7 +11,7 @@ format:
 
 ::: {.opening-credits}
 ::: {.title-card}
-# Ersatz Production
+# ERSATZ PRODUCTION
 ::: {.tagline}
 Presents
 :::

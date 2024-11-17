@@ -1,4 +1,34 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap');
 
+/* Set global font families */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+pre, code {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+/* Update decorative elements to use the same font */
+.character-name,
+.opening-credits h1,
+.opening-credits .tagline,
+.creator,
+.navbar-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Adjust specific text elements */
+.project-card,
+.hero-content,
+.scene-details {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
 
 /* ==========================================================================
    Navigation
@@ -9,12 +39,12 @@
 
 /* Change the size of the navbar links */
 .navbar .nav-link {
-    font-size: 24px; /* Default font size for desktop */
+    font-size: 32px; /* Increased from 24px */
 }
 
 /* Adjust the logo or brand size if you have one */
 .navbar-brand {
-    font-size: 24px; /* Default brand size for desktop */
+    font-size: 32px; /* Increased from 24px */
 }
 
 /* Adjust the size of the logo */
@@ -62,7 +92,7 @@
     overflow-y: auto; /* Enable vertical scrolling */
     max-height: 80vh; /* Limit height to 80% of viewport height */
     -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-    font-size: 16px; /* Base font size for desktop */
+    font-size: 24px; /* Increased from 16px */
 }
 
 .hero-content p {
@@ -79,7 +109,7 @@
 /* Tablet devices */
 @media screen and (max-width: 768px) {
     .hero-content {
-        font-size: 14px;
+        font-size: 20px; /* Increased from 14px */
         max-width: 90%; /* Wider content area on tablets */
         padding: 15px;
     }
@@ -88,7 +118,7 @@
 /* Mobile devices */
 @media screen and (max-width: 480px) {
     .hero-content {
-        font-size: 12px;
+        font-size: 18px; /* Increased from 12px */
         max-width: 95%; /* Even wider on phones */
         padding: 10px;
     }
@@ -117,6 +147,7 @@
     transition: transform 0.2s ease; /* Add transition for hover effect */
     font-size: 1.4rem; /* Set font size to match .project-details for desktop */
     text-align: center; /* Center the text */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .project-card:hover {
@@ -124,6 +155,11 @@
     box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Add shadow on hover */
 }
 
+.project-card h3 {
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 
 /* Tablet devices */
 @media screen and (max-width: 768px) {
@@ -174,18 +210,18 @@
 .project-details li {
     margin: 0.5rem 0;
     color: #444;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 1.4;
 }
 
 /* Tablet devices */
 @media screen and (max-width: 768px) {
-    .project-details {
-        margin-left: 0.75rem;
+    body {
+        font-size: 20px;
     }
     
     .project-details li {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.3;
         margin: 0.4rem 0;
     }
@@ -193,12 +229,12 @@
 
 /* Mobile devices */
 @media screen and (max-width: 480px) {
-    .project-details {
-        margin-left: 0.5rem;
+    body {
+        font-size: 18px;
     }
     
     .project-details li {
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 1.2;
         margin: 0.3rem 0;
     }
@@ -428,7 +464,7 @@ a:hover {
   font-size: 2.5rem;
   margin: 0;
   color: #fff;
-  font-family: "Cinzel", serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .role {
@@ -556,6 +592,13 @@ a:hover {
     transition: transform 0.2s ease;
     font-size: 1.4rem;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.project-card h3 {
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 /* ==========================================================================
@@ -582,27 +625,29 @@ a:hover {
 .opening-credits {
     padding: 4rem 0;
     text-align: center;
-  }
+    font-family: 'Source Sans Pro', sans-serif;
+}
   
-  .title-card {
+.title-card {
     display: inline-block;
     padding: 2rem;
     border: 2px solid #333;
-  }
+    font-family: 'Source Sans Pro', sans-serif;
+}
   
-  .opening-credits h1 {
-    font-family: 'Cinzel', serif;
+.opening-credits h1 {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 4rem;
     margin: 0;
     letter-spacing: 0.2em;
-  }
+}
   
-  .opening-credits .tagline {
-    font-family: 'Cormorant Garamond', serif;
+.opening-credits .tagline {
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.5rem;
     margin-top: 1rem;
     font-style: italic;
-  }
+}
 
 @keyframes fadeIn {
   from {
@@ -613,4 +658,18 @@ a:hover {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.index-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.character-name {
+    font-family: 'Source Sans Pro', sans-serif;
 }
