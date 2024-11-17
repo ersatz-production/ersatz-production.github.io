@@ -11,7 +11,7 @@ format:
 
 ::: {.opening-credits}
 ::: {.title-card}
-# ERSATZ PRODUCTION
+# [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
 ::: {.tagline}
 Presents
 :::
@@ -107,27 +107,51 @@ add_scene(
 <script>
 // Wait for the HTML document to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-    // Select all elements with the 'scroll-reveal' class
     const scenes = document.querySelectorAll('.scroll-reveal');
     
-    // Create an Intersection Observer to detect when elements come into view
+    // Function to check if device is mobile
+    const isMobile = () => window.innerWidth <= 768;
+    
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
-            // When an element becomes visible in the viewport
             if (entry.isIntersecting) {
                 const element = entry.target;
-                // Make the element fully visible (fade in)
                 element.style.opacity = "1";
-                // Reset the element's position to its original spot (slide animation)
-                element.style.transform = "translateX(0)";
+                
+                // On mobile, always slide up instead of left/right
+                if (isMobile()) {
+                    element.style.transform = "translateY(0)";
+                } else {
+                    element.style.transform = "translateX(0)";
+                }
             }
         });
     }, {
-        threshold: 0.2,  // Trigger when 20% of the element is visible
-        rootMargin: '0px'  // No margin around the viewport
+        threshold: 0.2,
+        rootMargin: '0px'
     });
 
-    // Start observing all scene elements
-    scenes.forEach(scene => observer.observe(scene));
+    // Update initial transform based on device
+    scenes.forEach(scene => {
+        if (isMobile()) {
+            scene.style.transform = "translateY(50px)";
+        } else {
+            const direction = scene.dataset.direction;
+            scene.style.transform = `translateX(${direction === 'right' ? '100px' : '-100px'})`;
+        }
+        observer.observe(scene);
+    });
+    
+    // Handle resize events
+    window.addEventListener('resize', () => {
+        scenes.forEach(scene => {
+            if (isMobile()) {
+                scene.style.transform = "translateY(50px)";
+            } else {
+                const direction = scene.dataset.direction;
+                scene.style.transform = `translateX(${direction === 'right' ? '100px' : '-100px'})`;
+            }
+        });
+    });
 });
 </script>
