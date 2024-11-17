@@ -30,7 +30,9 @@
     }
     
     .navbar-brand img {
-        max-height: 70px;
+        max-height: 60px;
+        width: auto;
+        object-fit: contain;
     }
     
     .navbar .nav-link {
