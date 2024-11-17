@@ -1142,3 +1142,48 @@ a:hover {
 .character-name {
     font-family: 'Source Sans Pro', sans-serif;
 }
+
+/* Add responsive styles */
+@media screen and (max-width: 768px) { /* Tablet */
+  .scene {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+  
+  .scene-visual {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .scene-details {
+    width: 100%;
+    padding-left: 0;
+  }
+  
+  .image-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) { /* Mobile */
+  .scene {
+    padding: 1.5rem 0.75rem;
+  }
+  
+  .character-name {
+    font-size: 1.5rem;
+  }
+  
+  .role {
+    font-size: 0.9rem;
+  }
+  
+  .character-arc {
+    font-size: 0.9rem;
+  }
+  
+  .image-container {
+    max-width: 250px;
+  }
+}
