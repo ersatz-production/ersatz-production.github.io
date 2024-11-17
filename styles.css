@@ -1128,15 +1128,34 @@ a:hover {
     transform: translateY(0);
   }
 }
-
 .index-text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.5rem;
     line-height: 1.8;
     text-align: center;
     max-width: 80%;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 2rem;
+}
+
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .index-text {
+        font-size: 1.3rem;
+        max-width: 90%;
+        padding: 1.5rem;
+        line-height: 1.6;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .index-text {
+        font-size: 1.1rem;
+        max-width: 95%;
+        padding: 1rem;
+        line-height: 1.5;
+    }
 }
 
 .character-name {
