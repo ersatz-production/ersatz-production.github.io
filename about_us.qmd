@@ -11,7 +11,7 @@ format:
 
 ::: {.opening-credits}
 ::: {.title-card}
-# ERSATZ PRODUCTION
+# [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
 ::: {.tagline}
 Presents
 :::
