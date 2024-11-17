@@ -53,6 +53,46 @@ pre, code {
     width: auto;
 }
 
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+    
+    .navbar-brand img {
+        max-height: 70px;
+    }
+    
+    .navbar .nav-link {
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        color: #333; /* Dark gray text color for better contrast */
+        padding: 8px 15px;
+        border-radius: 4px;
+        margin: 5px 0;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .navbar-brand {
+        font-size: 18px;
+    }
+    grid-area: auto;
+    .navbar-brand img {
+        max-height: 50px;
+    }
+    
+    .navbar .nav-link {
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        color: #333; /* Dark gray text color for better contrast */
+        padding: 6px 12px;
+        border-radius: 4px;
+        margin: 3px 0;
+    }
+}
+
 /* ==========================================================================
    Hero Section
    ========================================================================== */
@@ -697,13 +737,104 @@ a:hover {
 /* ==========================================================================
    Index Text
    ========================================================================== */
-.index-text {
+
+   .index-text {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.5rem;
     line-height: 1.8;
     text-align: center;
     max-width: 80%;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 2rem;
 }
 
+/* Tablet devices */
+@media screen and (max-width: 768px) {
+    .index-text {
+        font-size: 1.3rem;
+        max-width: 90%;
+        padding: 1.5rem;
+        line-height: 1.6;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .index-text {
+        font-size: 1.1rem;
+        max-width: 95%;
+        padding: 1rem;
+        line-height: 1.5;
+    }
+}
+
+
+/* ==========================================================================
+   Table of Contents
+   ========================================================================== */
+/* Style all levels of TOC links */
+.sidebar nav[role=doc-toc] ul li a {
+    font-size: 18px;  /* Adjust this value for TOC font size */
+    white-space: normal;  /* Allow text to wrap */
+    word-wrap: break-word;
+    display: inline-block;
+    width: 100%;         /* Use full width available */
+}
+
+/* Optional: Style different levels differently */
+.sidebar nav[role=doc-toc] > ul > li > a {
+    font-size: 20px;  /* Larger font for first level */
+}
+
+.sidebar nav[role=doc-toc] > ul > li > ul > li > a {
+    font-size: 18px;  /* Slightly smaller for second level */
+}
+
+.sidebar-navigation {
+    width: 350px;
+    max-width: 100%;
+    margin-left: -20px;  /* Move the entire sidebar to the left */
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.sidebar nav[role=doc-toc] ul > li > a.active {
+    border-left: 1px solid #0d6efd;
+    color: #0d6efd !important;
+}
+
+/* Add some spacing between TOC items */
+.sidebar nav[role=doc-toc] ul li {
+    margin: 8px 0;
+}
+
+/* Move TOC to the left */
+.sidebar {
+    margin-left: -100px !important;  /* Force override with !important */
+    padding-left: 0;
+}
+
+.content-with-sidebar {
+    margin-left: 380px;  /* Adjust based on your sidebar width */
+}
+
+/* Ensure TOC width and content */
+.sidebar-navigation {
+    width: 350px;
+    max-width: 100%;
+}
+
+#TOC {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    max-width: 100%;
+}
+
+/* Style the TOC title */
+.sidebar nav[role=doc-toc] > h2 {
+    font-size: 24px;  /* Adjust this value to make it bigger */
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;  /* Optional: customize the color */
+}
