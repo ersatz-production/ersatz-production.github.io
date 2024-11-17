@@ -302,19 +302,6 @@ h6:before {
     }
 }
 
-/* Add media queries for different screen sizes */
-@media screen and (max-width: 768px) {
-    .hero-section {
-        height: 400px;  /* Slightly smaller height for tablets */
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .hero-section {
-        height: 300px;  /* Even smaller height for mobile */
-    }
-}
-
 /* Overall layout */
 .filmography {
     max-width: 800px;
