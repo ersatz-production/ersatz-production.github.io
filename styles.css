@@ -22,7 +22,7 @@
 /* Tablet devices */
 @media screen and (max-width: 768px) {
     .navbar {
-        height: 80px;
+        height: 110px;
         display: flex;
         align-items: center;
     }
@@ -54,7 +54,7 @@
 /* Mobile devices */
 @media screen and (max-width: 480px) {
     .navbar {
-        height: 60px;
+        height: 110px;
         display: flex;
         align-items: center;
     }
