@@ -8,12 +8,17 @@ format:
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 ---
 
-<div class="film-grain"></div>
+::: {.film-grain}
+:::
 
-<div class="opening-credits">
-  <h1>Ersatz Production</h1>
-  <div class="tagline">Presents</div>
-</div>
+::: {.opening-credits}
+::: {.title-card}
+# Ersatz Production
+::: {.tagline}
+Presents
+:::
+:::
+:::
 
 ```{r setup}
 #| echo: false

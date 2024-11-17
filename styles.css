@@ -578,3 +578,39 @@ a:hover {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+.opening-credits {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .title-card {
+    display: inline-block;
+    padding: 2rem;
+    border: 2px solid #333;
+  }
+  
+  .opening-credits h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    margin: 0;
+    letter-spacing: 0.2em;
+  }
+  
+  .opening-credits .tagline {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-style: italic;
+  }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
