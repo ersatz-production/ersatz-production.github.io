@@ -255,10 +255,22 @@ pre, code {
 }
 
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    /* On mobile, stack cards in a single column */
+    grid-template-columns: 1fr;
+}
+
+/* On larger screens (min-width: 768px), show two columns */
+@media (min-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.project-card {
+    width: 100%;
+    /* Add any other styling for the cards here */
 }
 
 /* Tablet devices */
