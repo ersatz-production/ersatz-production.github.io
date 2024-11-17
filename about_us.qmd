@@ -1,39 +1,46 @@
 ---
-title: "About Us"
-about:
-  template: jolla
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/ersatz-production
+title: "The Crew"
+format:
+  html:
+    css: styles.css
+    toc: false
 ---
 
+::: {.film-grain}
+:::
 
-```{r}
+::: {.opening-credits}
+::: {.title-card}
+# ERSATZ PRODUCTION
+::: {.tagline}
+Presents
+:::
+:::
+:::
+
+```{r setup}
 #| echo: false
-# Copyright to djnavarro: https://github.com/djnavarro/djnavarro.github.io/blob/main/index.qmd
-add_card <- function(src, title, subtitle, text, url, link_text, img_alt) {
+add_scene <- function(src, title, role, text, url, link_text, img_alt, direction = "right") {
   lines <- c(
-    '<div class="g-col-12 g-col-md-9 g-col-xl-6">',
-    '<div class="card h-100">',
+    sprintf('<div class="scene-wrapper scroll-reveal" data-direction="%s">', direction),
+    '<div class="scene">',
     paste0(
-      '<a href="', 
-      url, 
-      '"><img src="', 
-      src, 
-      '"',
-      'alt = "',
-      img_alt,
-      '"',
-      'class="card-img-top"></a>'
+      '<div class="scene-visual">',
+      '<div class="image-container">',
+      '<img src="', src, '" alt="', img_alt, '" class="portrait">',
+      '<div class="vignette"></div>',
+      '</div>',
+      '</div>'
     ),
-    '<div class="card-body">',
-    paste0('<h2 class="card-title">', title, '</h2>'),
-    paste0('<h3 class="card-subtitle">', subtitle, '</h3>'),
-    paste0('<p class="card-text">', text, '</p>'),
-    '</div>',
-    '<div class="card-footer">',
-    paste0('<a href="', url, '" class="btn btn-primary">', link_text, '</a>'),
+    '<div class="scene-details">',
+    paste0('<h2 class="character-name">', title, '</h2>'),
+    paste0('<div class="role">', role, '</div>'),
+    '<div class="separator"></div>',
+    paste0('<div class="character-arc">', text, '</div>'),
+    paste0('<a href="', url, '" class="credits-link" target="_blank">', 
+           '<span class="link-text">', link_text, '</span>',
+           '<span class="link-line"></span>',
+           '</a>'),
     '</div>',
     '</div>',
     '</div>'
@@ -42,59 +49,85 @@ add_card <- function(src, title, subtitle, text, url, link_text, img_alt) {
 }
 ```
 
-::: grid
-```{r cards}
+::: {.film-reel}
+```{r}
 #| echo: false
 #| results: asis
 
-add_card(
+# First team member
+add_scene(
   src = "images/avatar-rani.png",
   title = "Rani", 
-  subtitle = "Creation",
+  role = "Director & Creator",
   text = "Rani embarked on his discovery of filmmaking by studying cinema in Seoul, South Korea. Now working as a freelance translator, he spends his free time creating music – or noise – on the piano or computer, gaming late into the night, and delving into literature and philosophy. The discovery of new experiences and impressions through diverse art forms and media is what interests him and what he wishes to convey through his own works.",
   url = "https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A",
   img_alt = "An avatar of a man with a beard.",
-  link_text = "www.swissfilms.ch"
+  link_text = "View Portfolio",
+  direction = "right"
 )
 
-add_card(
+# Second team member
+add_scene(
   src = "images/vincent_profile.jpg",
   title = "Vincent", 
-  subtitle = "Communication & Creation",
-  text = "Meet Vincent, our resident storyteller. 
-  His love for spinning tales began long ago, first as an English and History teacher, where he wove narratives into every lesson. But Vincent didn't stop there; he took his storytelling prowess to the airwaves, crafting podcasts designed to be both educational and entertaining.
-With a penchant for psychological thrillers and the allure of unanswered questions, Vincent is an avid consumer of cultural media.",
-  url = "https://www.linkedin.com/in/vincent-lettry-a4ab81259/?originalSubdomain=ch",
+  role = "President & Creator",
+  text = "Meet Vincent, our resident storyteller. His love for spinning tales began long ago, first as an English and History teacher, where he wove narratives into every lesson. But Vincent didn't stop there; he took his storytelling prowess to the airwaves, crafting podcasts designed to be both educational and entertaining. With a penchant for psychological thrillers and the allure of unanswered questions, Vincent is an avid consumer of cultural media.",
+  url = "https://www.linkedin.com/in/vincent-lettry-a4ab81259/",
   img_alt = "An avatar of a blond man.",
-  link_text = "www.linkedin.com"
+  link_text = "View Portfolio",
+  direction = "left"
 )
 
-
-add_card(
+# Third team member
+add_scene(
   src = "images/matthias_profile.jpeg",
   title = "Matthias", 
-  subtitle = "Creation",
+  role = "Creator",
   text = "Working mainly as a modern art dealer with a background in filmaking, ranging from film analysis to screenwriting as well as acting, Matthias' intend is to merge his array of skills for the benefit of helping the creation of original works, free of conventions and pre-made ideas.",
   url = "https://ersatzproduction.com",
-  img_alt = "tbd",
-  link_text = "ersatzproduction.com"
+  img_alt = "Matthias profile photo",
+  link_text = "View Portfolio",
+  direction = "right"
 )
 
-
-add_card(
+# Fourth team member
+add_scene(
   src = "images/lclettry_profile.jpg",
   title = "Layal", 
-  subtitle = "Organisation",
-  text = "Meet Layal, our data magician! She's all about bringing data to life with a dash of creativity and a sprinkle of magic. 
-Enjoying animated and superhero movies, Layal's passion shines through in her work as a data scientist and econometrician.
-  Whether she's jazzing up our website or keeping our accounts in check, Layal's got the knack for making things look good and run smoothly.",
+  role = "Technology & Organisation",
+  text = "Meet Layal, our data magician! She's all about bringing data to life with a dash of creativity and a sprinkle of magic. Enjoying animated and superhero movies, Layal's passion shines through in her work as a data scientist and econometrician. Whether she's jazzing up our website or keeping our accounts in check, Layal's got the knack for making things look good and run smoothly.",
   url = "https://lclettry.com",
   img_alt = "A girl.",
-  link_text = "lclettry.com"
+  link_text = "View Portfolio",
+  direction = "left"
 )
 ```
 :::
 
-<!-- verification -->
+<script>
+// Wait for the HTML document to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all elements with the 'scroll-reveal' class
+    const scenes = document.querySelectorAll('.scroll-reveal');
+    
+    // Create an Intersection Observer to detect when elements come into view
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            // When an element becomes visible in the viewport
+            if (entry.isIntersecting) {
+                const element = entry.target;
+                // Make the element fully visible (fade in)
+                element.style.opacity = "1";
+                // Reset the element's position to its original spot (slide animation)
+                element.style.transform = "translateX(0)";
+            }
+        });
+    }, {
+        threshold: 0.2,  // Trigger when 20% of the element is visible
+        rootMargin: '0px'  // No margin around the viewport
+    });
 
-<a rel="me" style="display:none" href="https://github.com/ersatz-production">Hidden link used to verify my account on GitHub</a>
+    // Start observing all scene elements
+    scenes.forEach(scene => observer.observe(scene));
+});
+</script>

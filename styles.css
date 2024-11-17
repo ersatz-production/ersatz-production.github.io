@@ -1,16 +1,50 @@
-/* Increase the height of the navbar */
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/* Set global font families */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+pre, code {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}
+
+/* Update decorative elements to use the same font */
+.character-name,
+.opening-credits h1,
+.opening-credits .tagline,
+.creator,
+.navbar-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Adjust specific text elements */
+.project-card,
+.hero-content,
+.scene-details {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
 .navbar {
     height: 110px; /* Adjust the height as needed */
 }
 
 /* Change the size of the navbar links */
 .navbar .nav-link {
-    font-size: 24px; /* Default font size for desktop */
+    font-size: 32px; /* Increased from 24px */
 }
 
 /* Adjust the logo or brand size if you have one */
 .navbar-brand {
-    font-size: 24px; /* Default brand size for desktop */
+    font-size: 32px; /* Increased from 24px */
 }
 
 /* Adjust the size of the logo */
@@ -19,223 +53,9 @@
     width: auto;
 }
 
-/* Tablet devices */
-@media screen and (max-width: 768px) {
-    .navbar-brand {
-        font-size: 20px;
-    }
-
-    .navbar-brand img {
-        max-height: 70px;
-    }
-
-    .navbar .nav-link {
-        font-size: 20px;
-        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-        color: #333; /* Dark gray text color for better contrast */
-        padding: 8px 15px;
-        border-radius: 4px;
-        margin: 5px 0;
-    }
-}
-
-/* Mobile devices */
-@media screen and (max-width: 480px) {
-    .navbar-brand {
-        font-size: 18px;
-    }
-    grid-area: auto;
-    .navbar-brand img {
-        max-height: 50px;
-    }
-
-    .navbar .nav-link {
-        font-size: 16px;
-        background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-        color: #333; /* Dark gray text color for better contrast */
-        padding: 6px 12px;
-        border-radius: 4px;
-        margin: 3px 0;
-    }
-}
-
-
-/*  Image on the left and right and text in the other side */
-.image-text-container {
-  display: flex;
-  align-items: center; /* Aligns items vertically */
-  justify-content: center; /* Aligns items horizontally */
-  margin: 20px 0; /* Adds some space around the container */
-  text-align: justify;
-  font-size: 24px; /* Adjust font size as needed */
-  
-}
-
-.image-text-container img {
-  margin-right: 15px; /* Reduced space between image and text */
-  margin-left: -25px; /* Adjust if needed */
-  padding-left: 25px;  /* Reduced padding */
-  padding-right: 25px; /* Reduced padding */
-  
-  flex-shrink: 0;    /* Prevent the image from shrinking */
-  min-width: 650px;  /* Set a minimum width for the image */
-  max-width: 100%;    /* Ensure the image doesn't take up more than 50% of the container */
-  height: auto;      /* Maintain aspect ratio */
-}
-
-.image-text-container .text {
-   max-width: 600px; /* Limits the width of the text area */
-   line-height: 1.5; /* Improves readability */
-}
-
-.image-text-container-reverse {
-  display: flex;
-  align-items: center; /* Aligns items vertically */
-  flex-direction: row-reverse; /* This swaps the image and text positions */
-  justify-content: center; /* Aligns items horizontally */
-  margin: 20px 0; /* Adds some space around the container */
-  text-align: justify;
-  font-size: 24px; /* Adjust font size as needed */
-}
-
-.image-text-container-reverse img {
-  margin-left: 30px; /* Reduced space between image and text */
-  padding-left: 25px;  /* Reduced padding */
-  padding-right: 25px; /* Reduced padding */
-  
-  flex-shrink: 0;    /* Prevent the image from shrinking */
-  min-width: 650px;  /* Set a minimum width for the image */
-  max-width: 80%;    /* Reduce from 100% to 80% or adjust as needed */
-  height: auto;      /* Maintain aspect ratio */
-  display: block;    /* Center the image */
-  margin: auto;      /* Center the image */
-}
-
-.image-text-container-reverse .text {
-  max-width: 600px; /* Limits the width of the text area */
-  line-height: 1.5; /* Improves readability */
-}
-
-/* Add asterisks before title */
-/*h1:before,
-h2:before,
-h3:before,
-h4:before,
-h5:before,
-h6:before {
-  content: url("images/asterisques.png");
-  display: inline-block;
-  margin-right: 10px;
-  width: -5px; /* Adjust the width as per your requirement */
-/*  height: 50px; /* Adjust the height as per your requirement */
-/*}
-
-#TOC {
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 18px;
-    max-width: 100%;
-    margin-left: -20px;  /* Move TOC to the left */
-}
-
-/* Style all levels of TOC links */
-.sidebar nav[role=doc-toc] ul li a {
-    font-size: 18px;  /* Adjust this value for TOC font size */
-    white-space: normal;  /* Allow text to wrap */
-    word-wrap: break-word;
-    display: inline-block;
-    width: 100%;         /* Use full width available */
-}
-
-/* Optional: Style different levels differently */
-.sidebar nav[role=doc-toc] > ul > li > a {
-    font-size: 20px;  /* Larger font for first level */
-}
-
-.sidebar nav[role=doc-toc] > ul > li > ul > li > a {
-    font-size: 18px;  /* Slightly smaller for second level */
-}
-
-.sidebar-navigation {
-    width: 350px;
-    max-width: 100%;
-    margin-left: -20px;  /* Move the entire sidebar to the left */
-    padding-right: 0;
-    margin-right: 0;
-}
-
-.sidebar nav[role=doc-toc] ul > li > a.active {
-    border-left: 1px solid #0d6efd;
-    color: #0d6efd !important;
-}
-
-/* Add some spacing between TOC items */
-.sidebar nav[role=doc-toc] ul li {
-    margin: 8px 0;
-}
-
-/* Move TOC to the left */
-.sidebar {
-    margin-left: -100px !important;  /* Force override with !important */
-    padding-left: 0;
-}
-
-.content-with-sidebar {
-    margin-left: 380px;  /* Adjust based on your sidebar width */
-}
-
-/* Ensure TOC width and content */
-.sidebar-navigation {
-    width: 350px;
-    max-width: 100%;
-}
-
-#TOC {
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 18px;
-    max-width: 100%;
-}
-
-/* Style the TOC title */
-.sidebar nav[role=doc-toc] > h2 {
-    font-size: 24px;  /* Adjust this value to make it bigger */
-    font-weight: bold;
-    margin-bottom: 15px;
-    color: #333;  /* Optional: customize the color */
-}
-
-
-.index-text {
-    font-size: 1.5rem;
-    line-height: 1.8;
-    text-align: center;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-/* Tablet devices */
-@media screen and (max-width: 768px) {
-    .index-text {
-        font-size: 1.3rem;
-        max-width: 90%;
-        padding: 1.5rem;
-        line-height: 1.6;
-    }
-}
-
-/* Mobile devices */
-@media screen and (max-width: 480px) {
-    .index-text {
-        font-size: 1.1rem;
-        max-width: 95%;
-        padding: 1rem;
-        line-height: 1.5;
-    }
-}
-
-
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
 .hero-section {
     position: relative;
     width: 105vw;
@@ -272,7 +92,7 @@ h6:before {
     overflow-y: auto; /* Enable vertical scrolling */
     max-height: 80vh; /* Limit height to 80% of viewport height */
     -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
-    font-size: 16px; /* Base font size for desktop */
+    font-size: 24px; /* Increased from 16px */
 }
 
 .hero-content p {
@@ -289,7 +109,7 @@ h6:before {
 /* Tablet devices */
 @media screen and (max-width: 768px) {
     .hero-content {
-        font-size: 14px;
+        font-size: 20px; /* Increased from 14px */
         max-width: 90%; /* Wider content area on tablets */
         padding: 15px;
     }
@@ -298,7 +118,7 @@ h6:before {
 /* Mobile devices */
 @media screen and (max-width: 480px) {
     .hero-content {
-        font-size: 12px;
+        font-size: 18px; /* Increased from 12px */
         max-width: 95%; /* Even wider on phones */
         padding: 10px;
     }
@@ -327,6 +147,7 @@ h6:before {
     transition: transform 0.2s ease; /* Add transition for hover effect */
     font-size: 1.4rem; /* Set font size to match .project-details for desktop */
     text-align: center; /* Center the text */
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .project-card:hover {
@@ -334,6 +155,11 @@ h6:before {
     box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Add shadow on hover */
 }
 
+.project-card h3 {
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 
 /* Tablet devices */
 @media screen and (max-width: 768px) {
@@ -384,18 +210,18 @@ h6:before {
 .project-details li {
     margin: 0.5rem 0;
     color: #444;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 1.4;
 }
 
 /* Tablet devices */
 @media screen and (max-width: 768px) {
-    .project-details {
-        margin-left: 0.75rem;
+    body {
+        font-size: 20px;
     }
     
     .project-details li {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.3;
         margin: 0.4rem 0;
     }
@@ -403,18 +229,20 @@ h6:before {
 
 /* Mobile devices */
 @media screen and (max-width: 480px) {
-    .project-details {
-        margin-left: 0.5rem;
+    body {
+        font-size: 18px;
     }
     
     .project-details li {
-        font-size: 1rem;
+        font-size: 1.2rem;
         line-height: 1.2;
         margin: 0.3rem 0;
     }
 }
 
-/* Links */
+/* ==========================================================================
+   Links
+   ========================================================================== */
 a {
     color: #0d6efd;
     text-decoration: none;
@@ -441,7 +269,9 @@ a:hover {
     }
 }
 
-/* Creator sections */
+/* ==========================================================================
+   Creator Sections
+   ========================================================================== */
 .creator {
     margin-top: 3rem;
     padding-bottom: 1rem;
@@ -458,7 +288,9 @@ a:hover {
     color: #ffffff; /* Pure white text on hover */
 }
 
-/* Project sections */
+/* ==========================================================================
+   Project Sections
+   ========================================================================== */
 .project {
     margin: 2rem 0;
     padding: 1.5rem;
@@ -503,6 +335,10 @@ a:hover {
         padding: 1rem;
     }
 }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
 
 /* Tablet devices - Landscape */
 @media screen and (max-width: 768px) and (orientation: landscape) {
@@ -575,4 +411,265 @@ a:hover {
         gap: 1rem;
         padding: 1rem;
     }
+}
+
+/* ==========================================================================
+   Film-inspired styling
+   ========================================================================== */
+.film-strip {
+  text-align: center;
+  padding: 2rem 0;
+  background: #000;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.scene-wrapper {
+  margin: 4rem 0;
+  padding: 2rem;
+  background: linear-gradient(to right, #000, #111, #000);
+}
+
+.scene {
+  display: flex;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #fff;
+}
+
+.scene-visual {
+  flex: 0 0 40%;
+}
+
+.portrait {
+  width: 100%;
+  height: auto;
+  filter: grayscale(20%);
+  transition: filter 0.3s ease;
+}
+
+.portrait:hover {
+  filter: grayscale(0%);
+}
+
+.scene-details {
+  flex: 1;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.character-name {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #fff;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.role {
+  font-size: 1.2rem;
+  color: #gold;
+  margin: 0.5rem 0 1.5rem;
+  font-style: italic;
+}
+
+.character-arc {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.credits-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  transition: all 0.3s ease;
+}
+
+.credits-link:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* Animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .scene {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .scene-visual {
+    flex: 0 0 100%;
+  }
+}
+
+/* ==========================================================================
+   Film Effects
+   ========================================================================== */
+   .film-grain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyBAMAAADsEZWCAAAAGFBMVEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVfJ/YAAAACHRSTlMzMzMzMzMzM85JBgUAAAABYktHRAH/Ai3eAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QUcCDsxwwQYBAAAAEBJREFUOMtjYBgFgwwwKjAwMEJpAQYGBlUGBghbAMoW0IRSQ1paCgsLC0NDQ0NLS0tLS0tLS01NTU1NTU1NTU0NAO4UCqdRBvn9AAAAAElFTkSuQmCC');
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: 1000;
+    animation: grain 8s steps(10) infinite;
+}
+
+/* ==========================================================================
+   Scene Components
+   ========================================================================== */
+.scene-wrapper {
+    margin: 8rem 0;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 1s ease;
+}
+
+.scene {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.3));
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* ==========================================================================
+   Image Text Layouts
+   ========================================================================== */
+.image-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.image-text-container-reverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 24px;
+}
+
+/* ==========================================================================
+   Project Grid
+   ========================================================================== */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.project-card {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.project-card h3 {
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+@keyframes grain {
+    0%, 100% { transform: translate(0, 0) }
+    10% { transform: translate(-5%, -5%) }
+    20% { transform: translate(-10%, 5%) }
+    30% { transform: translate(5%, -10%) }
+    40% { transform: translate(-5%, 15%) }
+    50% { transform: translate(-10%, 5%) }
+    60% { transform: translate(15%, 0) }
+    70% { transform: translate(0, 10%) }
+    80% { transform: translate(-15%, 0) }
+    90% { transform: translate(10%, 5%) }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.opening-credits {
+    padding: 4rem 0;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+.title-card {
+    display: inline-block;
+    padding: 2rem;
+    border: 2px solid #333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+.opening-credits h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+    letter-spacing: 0.2em;
+}
+  
+.opening-credits .tagline {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.index-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.character-name {
+    font-family: 'Source Sans Pro', sans-serif;
 }
