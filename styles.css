@@ -1210,3 +1210,7 @@ a:hover {
     font-size: 1.2rem;  /* Smaller tagline on mobile */
   }
 }
+
+.text-justify {
+  text-align: justify;
+}
