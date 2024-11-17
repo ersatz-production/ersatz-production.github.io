@@ -75,12 +75,10 @@ pre, code {
 /* Change the size of the navbar links */
 .navbar .nav-link {
     font-size: 32px; /* Increased from 24px */
-    font-size: 32px; /* Increased from 24px */
 }
 
 /* Adjust the logo or brand size if you have one */
 .navbar-brand {
-    font-size: 32px; /* Increased from 24px */
     font-size: 32px; /* Increased from 24px */
 }
 
@@ -171,7 +169,6 @@ pre, code {
     max-height: 80vh; /* Limit height to 80% of viewport height */
     -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
     font-size: 24px; /* Increased from 16px */
-    font-size: 24px; /* Increased from 16px */
 }
 
 .hero-content p {
@@ -189,7 +186,6 @@ pre, code {
 @media screen and (max-width: 768px) {
     .hero-content {
         font-size: 20px; /* Increased from 14px */
-        font-size: 20px; /* Increased from 14px */
         max-width: 90%; /* Wider content area on tablets */
         padding: 15px;
     }
@@ -198,7 +194,6 @@ pre, code {
 /* Mobile devices */
 @media screen and (max-width: 480px) {
     .hero-content {
-        font-size: 18px; /* Increased from 12px */
         font-size: 18px; /* Increased from 12px */
         max-width: 95%; /* Even wider on phones */
         padding: 10px;
@@ -232,7 +227,6 @@ pre, code {
     font-size: 1.4rem; /* Set font size to match .project-details for desktop */
     text-align: center; /* Center the text */
     font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .project-card:hover {
@@ -240,11 +234,6 @@ pre, code {
     box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Add shadow on hover */
 }
 
-.project-card h3 {
-    font-family:  'Source Sans Pro', sans-serif;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
 .project-card h3 {
     font-family:  'Source Sans Pro', sans-serif;
     font-size: 1.8rem;
@@ -301,7 +290,6 @@ pre, code {
     margin: 0.5rem 0;
     color: #444;
     font-size: 1.8rem;
-    font-size: 1.8rem;
     line-height: 1.4;
 }
 
@@ -309,12 +297,9 @@ pre, code {
 @media screen and (max-width: 768px) {
     body {
         font-size: 20px;
-    body {
-        font-size: 20px;
     }
     
     .project-details li {
-        font-size: 1.5rem;
         font-size: 1.5rem;
         line-height: 1.3;
         margin: 0.4rem 0;
@@ -325,12 +310,9 @@ pre, code {
 @media screen and (max-width: 480px) {
     body {
         font-size: 18px;
-    body {
-        font-size: 18px;
     }
     
     .project-details li {
-        font-size: 1.2rem;
         font-size: 1.2rem;
         line-height: 1.2;
         margin: 0.3rem 0;
