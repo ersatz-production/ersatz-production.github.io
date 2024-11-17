@@ -36,7 +36,7 @@ add_scene <- function(src, title, role, text, url, link_text, img_alt, direction
     paste0('<h2 class="character-name">', title, '</h2>'),
     paste0('<div class="role">', role, '</div>'),
     '<div class="separator"></div>',
-    paste0('<div class="character-arc">', text, '</div>'),
+    paste0('<div class="character-arc text-justify">', text, '</div>'),
     paste0('<a href="', url, '" class="credits-link" target="_blank">', 
            '<span class="link-text">', link_text, '</span>',
            '<span class="link-line"></span>',
