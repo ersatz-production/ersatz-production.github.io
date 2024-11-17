@@ -21,6 +21,10 @@
 
 /* Tablet devices */
 @media screen and (max-width: 768px) {
+    .navbar {
+        height: 80px; /* Reduced height for tablets */
+    }
+    
     .navbar-brand {
         font-size: 20px;
     }
@@ -41,6 +45,10 @@
 
 /* Mobile devices */
 @media screen and (max-width: 480px) {
+    .navbar {
+        height: 60px; /* Further reduced height for mobile */
+    }
+    
     .navbar-brand {
         font-size: 18px;
     }
