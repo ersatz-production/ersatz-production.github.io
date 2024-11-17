@@ -1212,5 +1212,5 @@ a:hover {
 }
 
 .text-justify {
-  text-align: justify;
+  text-align: justify !important;
 }
