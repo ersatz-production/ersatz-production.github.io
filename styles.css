@@ -58,6 +58,10 @@ pre, code {
 
 /* Tablet devices */
 @media screen and (max-width: 768px) {
+    .navbar {
+        height: 120px; /* Adjust the height as needed */
+    }
+
     .navbar-brand {
         font-size: 20px;
     }
