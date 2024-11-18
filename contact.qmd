@@ -18,9 +18,9 @@ resources:
 
 ::: {.g-col-5 #note}
 
-# Connect through Your Ideas
+# Connect through your ideas
 
-Feel free to use this form discuss potential collaborations.
+Feel free to use this form to discuss potential collaborations.
 
 
 <!-- verification -->
