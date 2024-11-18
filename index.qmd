@@ -32,14 +32,20 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 :::
 
 ::: {.project-grid}
+
+
+::: {.project-card}
+### ![](images/meat_me_logo_paysage.jpeg)
+
+A short film project by Rani Gillioz
+
+:::
+
 ::: {.project-card}
 ### ![](images/si-les-morts-pouvaient-parler.jpg)
 
-Created by Vincent Lettry
+An audio fiction project by Vincent Lettry
 
-Audio fiction, 2025
-
-Written, Directed, Produced, Edited
 :::
 
 ::: {.project-card}
@@ -54,12 +60,6 @@ Written, Directed, Produced, Edited, Voice
 [Listen Now](https://cryptofacto.buzzsprout.com){.button}
 :::
 
-::: {.project-card}
-### ![](images/meat_me_logo_paysage.jpeg)
-
-A short film project by Rani Gillioz
-
-:::
 :::
 
 <a rel="me" style="display:none" href="https://github.com/ersatz-production">Hidden link used to verify my account on GitHub</a>
