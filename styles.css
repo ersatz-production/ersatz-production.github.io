@@ -195,6 +195,7 @@ pre, code {
     font-size: 1.4rem; /* Set font size to match .project-details for desktop */
     text-align: center; /* Center the text */
     font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
 }
 
 .project-card:hover {
@@ -222,12 +223,7 @@ pre, code {
     }
 }
 
-.project-grid {
-    display: grid;
-    gap: 2rem;
-    /* On mobile, stack cards in a single column */
-    grid-template-columns: 1fr;
-}
+
 
 /* On larger screens (min-width: 768px), show two columns */
 @media (min-width: 768px) {
@@ -236,24 +232,27 @@ pre, code {
     }
 }
 
-.project-card {
-    width: 100%;
-    /* Add any other styling for the cards here */
-}
-
-/* Tablet devices */
-@media screen and (max-width: 768px) {
-    .project-grid {
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    }
-}
-
-/* Mobile devices */
-@media screen and (max-width: 480px) {
-    .project-grid {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    }
-}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  /* Tablet devices */
+  @media screen and (max-width: 768px) {
+      .project-grid {
+          grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      }
+  }
+  
+  /* Mobile devices */
+  @media screen and (max-width: 480px) {
+      .project-grid {
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      }
+  }
+  
 
 /* Project details */
 .project-details {
@@ -350,7 +349,7 @@ a:hover {
 }
 
 /* ==========================================================================
-   Project Sections
+   Project Sections in Filmography
    ========================================================================== */
 
 .project {
@@ -398,83 +397,6 @@ a:hover {
     }
 }
 
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-
-/* Tablet devices - Landscape */
-@media screen and (max-width: 768px) and (orientation: landscape) {
-    .navbar {
-        height: 80px; /* Reduced height for landscape */
-    }
-    
-    .navbar-brand img {
-        max-height: 50px; /* Smaller logo for landscape */
-    }
-    
-    .navbar .nav-link {
-        font-size: 18px;
-        padding: 6px 12px;
-        margin: 3px 0;
-    }
-    
-    .image-text-container,
-    .image-text-container-reverse {
-        flex-direction: column; /* Stack items vertically */
-        font-size: 20px;
-    }
-    
-    .image-text-container img,
-    .image-text-container-reverse img {
-        min-width: auto;
-        max-width: 90%;
-        margin: 10px auto;
-    }
-    
-    .image-text-container .text,
-    .image-text-container-reverse .text {
-        max-width: 90%;
-        margin: 10px auto;
-    }
-}
-
-/* Mobile devices - Landscape */
-@media screen and (max-width: 480px) and (orientation: landscape) {
-    .navbar {
-        height: 60px; /* Even smaller height for mobile landscape */
-    }
-    
-    .navbar-brand img {
-        max-height: 40px; /* Even smaller logo for mobile landscape */
-    }
-    
-    .navbar .nav-link {
-        font-size: 14px;
-        padding: 4px 8px;
-        margin: 2px 0;
-    }
-    
-    .image-text-container,
-    .image-text-container-reverse {
-        font-size: 16px;
-    }
-    
-    .hero-section {
-        height: 300px; /* Reduced height for landscape */
-    }
-    
-    .hero-content {
-        max-height: 90vh;
-        font-size: 14px;
-    }
-    
-    .project-grid {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1rem;
-        padding: 1rem;
-    }
-}
 
 /* ==========================================================================
    Film-inspired styling
@@ -613,55 +535,6 @@ a:hover {
     background: linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.3));
     border-radius: 4px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-}
-
-/* ==========================================================================
-   Image Text Layouts
-   ========================================================================== */
-.image-text-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px 0;
-    text-align: justify;
-    font-size: 24px;
-}
-
-.image-text-container-reverse {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    justify-content: center;
-    margin: 20px 0;
-    text-align: justify;
-    font-size: 24px;
-}
-
-/* ==========================================================================
-   Project Grid
-   ========================================================================== */
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
-}
-
-.project-card {
-    background: #1a1a1a;
-    color: #ffffff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    transition: transform 0.2s ease;
-    font-size: 1.4rem;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.project-card h3 {
-    font-family:  'Source Sans Pro', sans-serif;
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
 }
 
 /* ==========================================================================
@@ -1050,97 +923,8 @@ a:hover {
     margin-bottom: 1rem;
 }
 
-/* ==========================================================================
-   Animations
-   ========================================================================== */
-@keyframes grain {
-    0%, 100% { transform: translate(0, 0) }
-    10% { transform: translate(-5%, -5%) }
-    20% { transform: translate(-10%, 5%) }
-    30% { transform: translate(5%, -10%) }
-    40% { transform: translate(-5%, 15%) }
-    50% { transform: translate(-10%, 5%) }
-    60% { transform: translate(15%, 0) }
-    70% { transform: translate(0, 10%) }
-    80% { transform: translate(-15%, 0) }
-    90% { transform: translate(10%, 5%) }
-}
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
 
-.opening-credits {
-    padding: 4rem 0;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-  
-.title-card {
-    display: inline-block;
-    padding: 2rem;
-    border: 2px solid #333;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-  
-.opening-credits h1 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 4rem;
-    margin: 0;
-    letter-spacing: 0.2em;
-}
-  
-.opening-credits .tagline {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    font-style: italic;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.index-text {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.8;
-    text-align: center;
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-/* Tablet devices */
-@media screen and (max-width: 768px) {
-    .index-text {
-        font-size: 1.3rem;
-        max-width: 90%;
-        padding: 1.5rem;
-        line-height: 1.6;
-    }
-}
-
-/* Mobile devices */
-@media screen and (max-width: 480px) {
-    .index-text {
-        font-size: 1.1rem;
-        max-width: 95%;
-        padding: 1rem;
-        line-height: 1.5;
-    }
-}
-
-.character-name {
-    font-family: 'Source Sans Pro', sans-serif;
-}
 
 /* Add responsive styles */
 @media screen and (max-width: 768px) { /* Tablet */
