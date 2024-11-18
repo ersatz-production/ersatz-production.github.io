@@ -64,6 +64,7 @@ pre, code {
     
     .navbar-brand img {
         max-height: 50px;
+        width: auto;
     }
     
     .navbar .nav-link {
@@ -84,6 +85,7 @@ pre, code {
     
     .navbar-brand img {
         max-height: 50px;
+        width: auto;
     }
     
     .navbar .nav-link {
