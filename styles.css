@@ -37,7 +37,7 @@ pre, code {
    Navigation
    ========================================================================== */
 .navbar {
-    height: 110px; /* Adjust the height as needed */
+    height: 120px; /* Adjust the height as needed */
 }
 
 /* Change the size of the navbar links */
@@ -57,13 +57,13 @@ pre, code {
 }
 
 /* Tablet devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .navbar-brand {
         font-size: 20px;
     }
     
     .navbar-brand img {
-        max-height: 50px;
+        max-height: 70px;
         width: auto;
     }
     
@@ -78,7 +78,7 @@ pre, code {
 }
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .navbar-brand {
         font-size: 18px;
     }
@@ -150,7 +150,7 @@ pre, code {
 }
 
 /* Tablet devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .hero-content {
         font-size: 20px; /* Increased from 14px */
         max-width: 90%; /* Wider content area on tablets */
@@ -159,7 +159,7 @@ pre, code {
 }
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .hero-content {
         font-size: 18px; /* Increased from 12px */
         max-width: 95%; /* Even wider on phones */
@@ -211,21 +211,21 @@ pre, code {
 }
 
 /* Tablet devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .project-card {
         font-size: 1.2rem; /* Match font size for tablets */
     }
 }
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .project-card {
         font-size: 1rem; /* Match font size for mobile */
     }
 }
 
-/* On larger screens (min-width: 768px), show two columns */
-@media (min-width: 768px) {
+/* On larger screens (min-width: 810px), show two columns */
+@media (min-width: 810px) {
     .project-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -239,14 +239,14 @@ pre, code {
 }
 
 /* Tablet devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .project-grid {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 }
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .project-grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
@@ -274,7 +274,7 @@ pre, code {
 }
 
 /* Tablet devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     body {
         font-size: 20px;
     }
@@ -287,7 +287,7 @@ pre, code {
 }
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     body {
         font-size: 18px;
     }
@@ -314,7 +314,7 @@ a:hover {
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
+@media (max-width: 810px) {
     .filmography {
         padding: 1rem;
     }
@@ -364,7 +364,7 @@ a:hover {
 }
 
 /* Tablet devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .creator {
         margin-top: 2rem;
         font-size: 1.5rem;
@@ -382,7 +382,7 @@ a:hover {
 }
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .creator {
         margin-top: 1.5rem;
         font-size: 1.3rem;
@@ -547,7 +547,7 @@ a:hover {
 }
 
 /* Tablet devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .opening-credits {
         padding: 3rem 0;
     }
@@ -567,7 +567,7 @@ a:hover {
 }
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .opening-credits {
         padding: 2rem 0;
     }
@@ -605,7 +605,7 @@ a:hover {
 }
 
 /* Tablet devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .index-text {
         font-size: 1.3rem;
         max-width: 90%;
@@ -615,7 +615,7 @@ a:hover {
 }
 
 /* Mobile devices */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .index-text {
         font-size: 1.1rem;
         max-width: 95%;
@@ -698,7 +698,7 @@ a:hover {
    Responsive Styles
    ========================================================================== */
 /* Add responsive styles */
-@media screen and (max-width: 768px) { /* Tablet */
+@media screen and (max-width: 810px) { /* Tablet */
     .scene {
         flex-direction: column;
         padding: 2rem 1rem;
@@ -721,7 +721,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 480px) { /* Mobile */
+@media screen and (max-width: 600px) { /* Mobile */
     .scene {
         padding: 1.5rem 0.75rem;
     }
@@ -743,7 +743,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .title-card h1 {
         font-size: 2rem;  /* Smaller font size on mobile */
         line-height: 1.2;
