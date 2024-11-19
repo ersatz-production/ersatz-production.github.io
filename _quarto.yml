@@ -8,7 +8,7 @@ website:
   reader-mode: false  
   navbar:
     background: "#1F80EF"
-    logo: "images/our_logo.jpg"
+    logo: "images/logo_sans_fond.png"
     right:
       - href: about_us.qmd
         text: About Us
