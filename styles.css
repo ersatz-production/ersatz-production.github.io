@@ -37,7 +37,7 @@ pre, code {
    Navigation
    ========================================================================== */
 .navbar {
-    height: 110px; /* Adjust the height as needed */
+    height: 120px; /* Adjust the height as needed */
 }
 
 /* Change the size of the navbar links */
@@ -63,7 +63,7 @@ pre, code {
     }
     
     .navbar-brand img {
-        max-height: 50px;
+        max-height: 70px;
         width: auto;
     }
     
