@@ -11,13 +11,10 @@ website:
     logo: "images/logo_sans_fond.png"
     left: 
       - menu:
-          - text: English
-            href: /en/
           - text: Français
             href: /fr/
           - text: Deutsch
             href: /de/
-        text: Language
         icon: "bi bi-translate"
     right:
       - href: about_us.qmd
