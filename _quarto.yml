@@ -9,6 +9,16 @@ website:
   navbar:
     background: "#1F80EF"
     logo: "images/logo_sans_fond.png"
+    left: 
+      - menu:
+          - text: English
+            href: /en/
+          - text: Français
+            href: /fr/
+          - text: Deutsch
+            href: /de/
+        text: Language
+        icon: "bi bi-translate"
     right:
       - href: about_us.qmd
         text: About Us
@@ -24,6 +34,7 @@ website:
         text: GitHub Repository
       - href: https://github.com/ersatz-production
         text: GitHub Organisation
+
     center:
       - href: https://ersatzproduction.com
         text: ersatzproduction.com
