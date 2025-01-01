@@ -1,0 +1,15 @@
+{
+  "hash": "e24122ce67dd1684c5b9669da6848dbd",
+  "result": {
+    "engine": "knitr",
+    "markdown": "::: {.cell}\n\n```{.r .cell-code}\n# Add this in a code chunk to render the HTML\ncat('\n<select id=\"language-select\">\n    <option value=\"en\">English</option>\n    <option value=\"fr\">Français</option>\n    <option value=\"de\">Deutsch</option>\n</select>\n\n<nav class=\"navbar\">\n    <ul>\n        <li class=\"navbar-item\" data-key=\"about\">About Us</li>\n        <li class=\"navbar-item\" data-key=\"filmography\">Filmography</li>\n        <li class=\"navbar-item\" data-key=\"contact\">Contact</li>\n    </ul>\n</nav>\n')\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n\n<select id=\"language-select\">\n    <option value=\"en\">English</option>\n    <option value=\"fr\">Français</option>\n    <option value=\"de\">Deutsch</option>\n</select>\n\n<nav class=\"navbar\">\n    <ul>\n        <li class=\"navbar-item\" data-key=\"about\">About Us</li>\n        <li class=\"navbar-item\" data-key=\"filmography\">Filmography</li>\n        <li class=\"navbar-item\" data-key=\"contact\">Contact</li>\n    </ul>\n</nav>\n```\n\n\n:::\n:::\n\n\n\n\n::: {.hero-section}\n![](../images/index-image.jpeg)\n\n::: {.hero-content}\n# ERSATZ PRODUCTION\n:::\n:::\n\n::: {.index-text}\nmon texte en  français\nErsatz Production is a production company (association) based in Fribourg, Switzerland.\n\nFounded in 2024 by four people from different professional backgrounds, united by one common desire, namely *going beyond established frameworks*.\n:::\n\n::: {.hero-section}\n![](../images/index-2nd-image.jpeg)\n\n::: {.hero-content}\n# *Going Beyond Established Frameworks*\n:::\n:::\n::: {.index-text}\nWhether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.\n:::\n\n::: {.hero-section}\n![](../images/projects-line.jpeg)\n\n::: {.hero-content}\n# CURRENT PROJECTS\n:::\n:::\n\n::: {.project-grid}\n\n\n::: {.project-card}\n### ![](../images/meat_me_logo_paysage.jpeg)\n\nA short film project by Rani Gillioz\n\n:::\n\n::: {.project-card}\n### ![](../images/si-les-morts-pouvaient-parler.jpg)\n\nAn audio fiction project by Vincent Lettry\n\n:::\n\n::: {.project-card}\n### ![](../images/crypto-facto_petit.jpg)\n\nCreated by Vincent Lettry\n\nPodcast, 105 episodes, 2023 – today\n\nWritten, Directed, Produced, Edited, Voice\n\n[Listen Now](https://cryptofacto.buzzsprout.com){.button}\n:::\n\n:::\n\n<a rel=\"me\" style=\"display:none\" href=\"https://github.com/ersatz-production\">Hidden link used to verify my account on GitHub</a>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
