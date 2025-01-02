@@ -24,5 +24,4 @@ format:
 
 
 editor: source
-execute:
-  freeze: true
+
