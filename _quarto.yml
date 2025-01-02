@@ -4,7 +4,7 @@ project:
 
 profile:
   default: french
-  group: [english, french]
+  group: [french, english]
 
 
 format:

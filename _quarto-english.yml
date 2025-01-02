@@ -1,5 +1,5 @@
 project:
-  output-dir: _site-english
+  output-dir: ./_site/en
 
 lang: en
 
