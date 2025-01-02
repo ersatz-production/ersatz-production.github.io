@@ -7,9 +7,16 @@
 :::
 
 ::: {.index-text}
+::: {.content-visible when-profile="english"}
 Ersatz Production is a production company (association) based in Fribourg, Switzerland.
 
-Founded in 2024 by four people from different professional backgrounds, united by one common desire, namely *going beyond established frameworks*.
+It was founded in 2024 by four people from different professional backgrounds, united by one common desire, namely *going beyond established frameworks*.
+:::
+::: {.content-visible when-profile="french"}
+Ersatz Production est une association de production basée à Fribourg, en Suisse.
+
+Elle a été fondée en 2024 par quatre personnes de différentes professions, unies par un seul désir, à savoir *aller au-delà des cadres établis*.
+:::
 :::
 
 ::: {.hero-section}

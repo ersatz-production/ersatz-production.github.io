@@ -1,5 +1,5 @@
 project:
-  output-dir: ./_site/fr
+  output-dir: _site-french
 
 lang: fr
 
@@ -44,6 +44,5 @@ website:
   open-graph: true
   search: true
   
-
 execute:
   freeze: false
