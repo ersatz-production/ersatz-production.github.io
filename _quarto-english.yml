@@ -39,10 +39,7 @@ website:
         text: Privacy Policy
       - href: terms_and_conditions.html
         text: Terms and Conditions
-  site-url: https://ersatzproduction.com
-  repo-url: https://github.com/ersatz-production/ersatz-production.github.io
-  open-graph: true
-  search: true
+
   
 execute:
   freeze: true

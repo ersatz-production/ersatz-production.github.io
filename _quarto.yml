@@ -21,7 +21,12 @@ format:
       margin-width: 100px
       gutter-width: 1.5rem
 
-
-
 editor: source
+website:
+  site-url: https://ersatzproduction.com
+  repo-url: https://github.com/ersatz-production/ersatz-production.github.io
+  open-graph: true
+  search: true
 
+execute:
+  freeze: true
