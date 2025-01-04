@@ -4,6 +4,7 @@ project:
 lang: en
 
 website:
+  site-url: https://ersatzproduction.com/en
   favicon: "images/our_logo.jpg"
   description: "Ersatz Production"
   page-navigation: true
