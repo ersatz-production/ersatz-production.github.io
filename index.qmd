@@ -65,7 +65,7 @@ An audio fiction project by Vincent Lettry
 Un projet audio fiction par Vincent Lettry
 :::
 :::
-:::
+
 
 ::: {.project-card}
 ### ![](images/crypto-facto_petit.jpg)
@@ -90,6 +90,6 @@ Podcast, 105 épisodes, 2023 – aujourd'hui
 [Écouter maintenant](https://cryptofacto.buzzsprout.com){.button}
 :::
 :::
-
+:::
 
 <a rel="me" style="display:none" href="https://github.com/ersatz-production">Hidden link used to verify my account on GitHub</a>
