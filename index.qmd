@@ -22,10 +22,20 @@ Elle a été fondée en 2024 par quatre personnes de différentes professions, u
 ::: {.hero-section}
 ![](images/index-2nd-image.jpeg)
 
+::: {.content-visible when-profile="english"}
 ::: {.hero-content}
 # *Going Beyond Established Frameworks*
 :::
 :::
+
+::: {.content-visible when-profile="french"}
+::: {.hero-content}
+# *Aller au-delà des cadres établis*
+:::
+:::
+
+:::
+
 ::: {.index-text}
 ::: {.content-visible when-profile="english"}
 Whether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.
@@ -38,9 +48,18 @@ Que ce soit des films documentaires ou des fictions - courts, moyens ou longs m�
 ::: {.hero-section}
 ![](images/projects-line.jpeg)
 
+::: {.content-visible when-profile="english"}
 ::: {.hero-content}
 # CURRENT PROJECTS
 :::
+:::
+
+::: {.content-visible when-profile="french"}
+::: {.hero-content}
+# PROJETS ACTUELS
+:::
+:::
+
 :::
 
 ::: {.project-grid}
