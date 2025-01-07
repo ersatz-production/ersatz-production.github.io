@@ -7,7 +7,6 @@ format:
 
 ::: {.film-grain}
 :::
-
 ::: {.opening-credits}
 ::: {.title-card}
 # [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
@@ -20,10 +19,10 @@ Présente
 :::
 :::
 :::
-:::
 
 ```{r setup}
 #| echo: false
+lang <- ifelse(Sys.getenv("QUARTO_PROFILE") == "french", "french", "english")
 add_scene <- function(src, title, role, text, url, link_text, img_alt, direction = "right") {
   lines <- c(
     sprintf('<div class="scene-wrapper scroll-reveal" data-direction="%s">', direction),
@@ -59,6 +58,7 @@ add_scene <- function(src, title, role, text, url, link_text, img_alt, direction
 #| results: asis
 
 # First team member
+if (lang == "english") {
 add_scene(
   src = "images/avatar-rani.png",
   title = "Rani", 
@@ -69,20 +69,45 @@ add_scene(
   link_text = "View Portfolio",
   direction = "right"
 )
-
+} else {
+ add_scene(
+  src = "images/avatar-rani.png",
+  title = "Rani", 
+  role = "Réalisateur & Créateur",
+  text = "Rani a commencé son exploration du cinéma en étudiant le cinéma à Séoul, en Corée du Sud. Maintenant, il travaille comme traducteur freelance et passe son temps à créer de la musique – ou du bruit – sur le piano ou l'ordinateur, à jouer jusqu'à tard le soir, et à plonger dans la littérature et la philosophie. La découverte de nouvelles expériences et impressions à travers divers domaines artistiques et médias est ce qui l'intéresse et ce qu'il souhaite transmettre à travers ses propres œuvres.",
+  url = "https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A",
+  img_alt = "Un avatar d'un homme barbu.",
+  link_text = "Voir le portfolio",
+  direction = "right"
+)
+} 
 # Second team member
+if (lang == "english") {
 add_scene(
   src = "images/vincent_profile.jpg",
   title = "Vincent", 
   role = "President & Creator",
-  text = "Meet Vincent, our resident storyteller. His love for spinning tales began long ago, first as an English and History teacher, where he wove narratives into every lesson. But Vincent didn't stop there; he took his storytelling prowess to the airwaves, crafting podcasts designed to be both educational and entertaining. With a penchant for psychological thrillers and the allure of unanswered questions, Vincent is an avid consumer of cultural media.",
+  text = "Meet Vincent, our storyteller. His love for spinning tales began long ago, first as an English and History teacher, where he wove narratives into every lesson. But Vincent didn't stop there; he took his storytelling prowess to the airwaves, crafting podcasts designed to be both educational and entertaining. With a penchant for psychological thrillers and the allure of unanswered questions, Vincent is an avid consumer of cultural media.",
   url = "https://www.linkedin.com/in/vincent-lettry-a4ab81259/",
   img_alt = "An avatar of a blond man.",
   link_text = "View Portfolio",
   direction = "left"
 )
+} else {
+add_scene(
+  src = "images/vincent_profile.jpg",
+  title = "Vincent", 
+  role = "Président & Créateur",
+  text = "Rencontre Vincent, notre narrateur. Son amour pour les histoires a commencé il y a longtemps, d'abord en tant qu'enseignant d'anglais et de histoire, où il a tissé des histoires dans chaque leçon. Mais Vincent n'a pas arrêté là; il a porté sa maîtrise du récit à la radio, créant des podcasts conçus à la fois pour être éducatifs et amusants. Avec un penchant pour les thrillers psychologiques et l'allure des questions sans réponse, Vincent est un avid consumer de médias culturels.",
+  url = "https://www.linkedin.com/in/vincent-lettry-a4ab81259/",
+  img_alt = "Un avatar d'un blond.",
+  link_text = "Voir le portfolio",
+  direction = "left"
+)
+}
 
 # Third team member
+if (lang == "english") {
 add_scene(
   src = "images/matthias_profile.jpeg",
   title = "Matthias", 
@@ -93,18 +118,43 @@ add_scene(
   link_text = "View Portfolio",
   direction = "right"
 )
+} else {
+add_scene(
+  src = "images/matthias_profile.jpeg",
+  title = "Matthias", 
+  role = "Créateur",
+  text = "Travaillant principalement comme commerçant d'art moderne avec une formation en cinéma, allant de l'analyse de film à la rédaction de scénarios, Matthias souhaite fusionner ses compétences pour aider à la création de nouvelles œuvres, libres de conventions et d'idées pré-conçues.",
+  url = "https://ersatzproduction.com",
+  img_alt = "Matthias profile photo",
+  link_text = "Voir le portfolio",
+  direction = "right"
+)
+}
 
 # Fourth team member
+if (lang == "english") {
 add_scene(
   src = "images/lclettry_profile.jpg",
   title = "Layal", 
   role = "Technology & Organisation",
-  text = "Meet Layal, our data magician! She's all about bringing data to life with a dash of creativity and a sprinkle of magic. Enjoying animated and superhero movies, Layal's passion shines through in her work as a data scientist and econometrician. Whether she's jazzing up our website or keeping our accounts in check, Layal's got the knack for making things look good and run smoothly.",
+  text = "Meet Layal, our data scientist! She's all about bringing data to life with a dash of creativity and a sprinkle of magic. Enjoying animated and superhero movies, Layal's passion shines through in her work as a data scientist and econometrician. Whether she's jazzing up our website or keeping our accounts in check, Layal's got the knack for making things look good and run smoothly.",
   url = "https://lclettry.com",
   img_alt = "A girl.",
   link_text = "View Portfolio",
   direction = "left"
+)   
+} else {    
+add_scene(  
+  src = "images/lclettry_profile.jpg",    
+  title = "Layal",
+  role = "Technologie & Organisation",
+  text = "Rencontre Layal, notre scientifique des données.Elle aime transformer les données en une touche de créativité et de magie. Avec un penchant pour les films d'animation et les super-héros, Layal met sa passion à jour dans son travail en tant que scientifique des données et économètre. Que ce soit en améliorant notre site web ou en veillant sur nos comptes, Layal a le don de rendre les choses jolies et fonctionnelles.",
+  url = "https://lclettry.com",
+  img_alt = "Une fille.",
+  link_text = "Voir le portfolio",
+  direction = "left"
 )
+}
 ```
 :::
 
