@@ -1,5 +1,4 @@
 ---
-title: "The Crew"
 format:
   html:
     css: styles.css
@@ -13,7 +12,12 @@ format:
 ::: {.title-card}
 # [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
 ::: {.tagline}
+::: {.content-visible when-profile="english"}
 Presents
+:::
+::: {.content-visible when-profile="french"}
+Présente
+:::
 :::
 :::
 :::
