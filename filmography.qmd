@@ -1,4 +1,5 @@
 ---
+title: "Filmography"
 css: styles.css
 ---
 
@@ -9,16 +10,9 @@ css: styles.css
 ::: {.project}
 ### MORITURI PODCAST
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Podcast, 15 episodes, 2022-2023
 - Written, Directed, Produced, Voice
 - [Listen on Buzzsprout](https://morituripodcast.buzzsprout.com)
-:::
-::: {.content-visible when-profile="french"}
-- Podcast, 15 épisodes, 2022-2023
-- Écrit, Réalisé, Produit, Voix
-- [Écouter sur Buzzsprout](https://morituripodcast.buzzsprout.com)
-:::
 :::
 :::
 
@@ -27,158 +21,92 @@ css: styles.css
 ::: {.project}
 ### MORITURI PODCAST
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Podcast, 15 episodes, 2022-2023
 - Written, Directed, Produced, Edited, Voice
 - [Listen on Buzzsprout](https://morituripodcast.buzzsprout.com)
 :::
-::: {.content-visible when-profile="french"}
-- Podcast, 15 épisodes, 2022-2023
-- Écrit, Réalisé, Produit, Monté, Voix
-- [Écouter sur Buzzsprout](https://morituripodcast.buzzsprout.com)
 :::
-:::
-:::
+
 ## Rani Gillioz {.creator}
 
 ::: {.project}
 ### DEMONS
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Official music video for Demons by Desmond, 5 min. 47 sec., 2016
 - Directed, Produced, Shot, Edited
-:::
-::: {.content-visible when-profile="french"}
-- Clip vidéo officiel pour Demons par Desmond, 5 min. 47 sec., 2016
-- Réalisé, Produit, Filmé, Monté
-:::
 :::
 :::
 
 ::: {.project}
 ### THE UNNAMEABLE
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Self-produced and self-financed feature film, 99 min., 2014
 - Directed, Produced, Written, Shot, Edited, Music
 - [Internet Link to the Trailer](https://vimeo.com/ranigillioz/linnommable-trailer)
-:::
-::: {.content-visible when-profile="french"}
-- Film auto-produit et auto-financé, 99 min., 2014
-- Réalisé, Produit, Écrit, Filmé, Monté, Musique
-- [Lien internet vers le trailer](https://vimeo.com/ranigillioz/linnommable-trailer)
-:::
 :::
 :::
 
 ::: {.project}
 ### THE ANT THAT SWALLOWED THE SUN
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Graduation feature film, 98 min., 2010
 - Directed, Produced, Written, Shot, Edited, Music
-:::
-::: {.content-visible when-profile="french"}
-- Film de fin d'études, 98 min., 2010
-- Réalisé, Produit, Écrit, Filmé, Monté, Musique
-:::
 :::
 :::
 
 ::: {.project}
 ### Mr. COWARD
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Mini fiction short film, 2 min. 20 sec., 2010
 - Directed, Written, Shot, Edited, Music
 :::
-::: {.content-visible when-profile="french"}
-- Court métrage fiction, 2 min. 20 sec., 2010
-- Réalisé, Écrit, Filmé, Monté, Musique
 :::
-:::
-:::
+
 ::: {.project}
 ### NEONS
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Official music video for I believe in love at first sight by Neons, 3 min. 38 sec., 2010
 - Directed, Shot, Edited
-:::
-::: {.content-visible when-profile="french"}
-- Clip vidéo officiel pour *I believe in love at first sight par Neons*, 3 min. 38 sec., 2010
-- Réalisé, Filmé, Monté
-:::
 :::
 :::
 
 ::: {.project}
 ### [drink me]
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Documentary short film, 21 min., 2008
 - Directed, Shot, Edited, Music
-:::
-::: {.content-visible when-profile="french"}
-- Court métrage documentaire, 21 min., 2008
-- Réalisé, Filmé, Monté, Musique
-:::
 :::
 :::
 
 ::: {.project}
 ### CELLOPHANE, THREADS AND MILK
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Unofficial music video for Solitaire by Notwist, 4 min., 2008
 - Directed, Shot, Edited
-:::
-::: {.content-visible when-profile="french"}
-- Clip vidéo officiel pour Solitaire par Notwist, 4 min., 2008
-- Réalisé, Filmé, Monté
-:::
 :::
 :::
 
 ::: {.project}
 ### THIS IS MILK. THIS IS TREE.
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Fiction short film, 8 min., 2008
 - Directed, Written, Shot, Edited, Music
-:::
-::: {.content-visible when-profile="french"}
-- Court métrage fiction, 8 min., 2008
-- Réalisé, Écrit, Filmé, Monté, Musique
-:::
 :::
 :::
 
 ::: {.project}
 ### BODY
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Fiction short film, 20 min., 2008
 - Directed, Produced, Written, Shot, Edited
-:::
-::: {.content-visible when-profile="french"}
-- Court métrage fiction, 20 min., 2008
-- Réalisé, Produit, Écrit, Filmé, Monté
-:::
 :::
 :::
 
 ::: {.project}
 ### SOMETIMES, MY CAT LIKES ME...
 ::: {.project-details}
-::: {.content-visible when-profile="english"}
 - Experimental short film, 30 min., 2007
 - Directed, Produced, Written, Shot, Edited, Music
-:::
-::: {.content-visible when-profile="french"}
-- Court métrage expérimental, 30 min., 2007
-- Réalisé, Produit, Écrit, Filmé, Monté, Musique
-:::
 :::
 :::
 
