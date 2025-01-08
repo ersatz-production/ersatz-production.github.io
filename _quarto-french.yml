@@ -4,7 +4,7 @@ project:
 lang: fr
 
 website:
-  site-url: https://ersatzproduction.com/fr
+  site-url: https://ersatzproduction.com
   repo-url: https://github.com/ersatz-production/ersatz-production.github.io
   open-graph: true
   search: true
