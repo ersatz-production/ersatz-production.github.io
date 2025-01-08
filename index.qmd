@@ -7,28 +7,59 @@
 :::
 
 ::: {.index-text}
+::: {.content-visible when-profile="english"}
 Ersatz Production is a production company (association) based in Fribourg, Switzerland.
 
-Founded in 2024 by four people from different professional backgrounds, united by one common desire, namely *going beyond established frameworks*.
+It was founded in 2024 by four people from different professional backgrounds, united by one common desire, namely *going beyond established frameworks*.
+:::
+::: {.content-visible when-profile="french"}
+Ersatz Production est une association de production basée à Fribourg, en Suisse.
+
+Elle a été fondée en 2024 par quatre personnes de différentes professions, unies par un seul désir, à savoir *aller au-delà des cadres établis*.
+:::
 :::
 
 ::: {.hero-section}
 ![](images/index-2nd-image.jpeg)
 
+::: {.content-visible when-profile="english"}
 ::: {.hero-content}
 # *Going Beyond Established Frameworks*
 :::
 :::
+
+::: {.content-visible when-profile="french"}
+::: {.hero-content}
+# *Aller au-delà des cadres établis*
+:::
+:::
+
+:::
+
 ::: {.index-text}
+::: {.content-visible when-profile="english"}
 Whether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.
+::: 
+::: {.content-visible when-profile="french"}
+Que ce soit des films documentaires ou des fictions - courts, moyens ou longs métrages- séries TV ou web, podcasts, musique ou art vivant, notre objectif est de promouvoir et créer des œuvres audiovisuelles avec des ambitions de cross-media, tout en soutenant des artistes audacieux et innovants.
+:::
 :::
 
 ::: {.hero-section}
 ![](images/projects-line.jpeg)
 
+::: {.content-visible when-profile="english"}
 ::: {.hero-content}
 # CURRENT PROJECTS
 :::
+:::
+
+::: {.content-visible when-profile="french"}
+::: {.hero-content}
+# PROJETS ACTUELS
+:::
+:::
+
 :::
 
 ::: {.project-grid}
@@ -36,20 +67,28 @@ Whether documentary or fiction films - short, medium or feature-length - TV or w
 
 ::: {.project-card}
 ### ![](images/meat_me_logo_paysage.jpeg)
-
+::: {.content-visible when-profile="english"}
 A short film project by Rani Gillioz
-
+:::
+::: {.content-visible when-profile="french"}
+Un court métrage de fiction par Rani Gillioz
+:::
 :::
 
 ::: {.project-card}
 ### ![](images/si-les-morts-pouvaient-parler.jpg)
-
+::: {.content-visible when-profile="english"}
 An audio fiction project by Vincent Lettry
-
 :::
+::: {.content-visible when-profile="french"}
+Un projet audio fiction par Vincent Lettry
+:::
+:::
+
 
 ::: {.project-card}
 ### ![](images/crypto-facto_petit.jpg)
+::: {.content-visible when-profile="english"}
 
 Created by Vincent Lettry
 
@@ -59,7 +98,17 @@ Written, Directed, Produced, Edited, Voice
 
 [Listen Now](https://cryptofacto.buzzsprout.com){.button}
 :::
+::: {.content-visible when-profile="french"}
 
+Créé par Vincent Lettry
+
+Podcast, 105 épisodes, 2023 – aujourd'hui
+
+Écrit, Réalisé, Produit, Monté, Voix
+
+[Écouter maintenant](https://cryptofacto.buzzsprout.com){.button}
+:::
+:::
 :::
 
 <a rel="me" style="display:none" href="https://github.com/ersatz-production">Hidden link used to verify my account on GitHub</a>

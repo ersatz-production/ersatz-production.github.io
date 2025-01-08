@@ -1,5 +1,4 @@
 ---
-title: Contact
 format: 
   html: 
     grid:
@@ -17,11 +16,18 @@ resources:
 ::: {.grid}
 
 ::: {.g-col-5 #note}
+::: {.content-visible when-profile="english"}
 
 # Connect through your ideas
 
 Feel free to use this form to discuss potential collaborations.
+:::
+::: {.content-visible when-profile="french"}
 
+# Connectez-vous avec nous à travers vos idées
+
+N'hésitez pas à utiliser ce formulaire pour discuter de collaborations potentielles.
+:::
 
 <!-- verification -->
 
@@ -34,6 +40,7 @@ Feel free to use this form to discuss potential collaborations.
 :::
 
 ::: {.g-col-6 #form}
+::: {.content-visible when-profile="english"}
 
 <form action="https://formspree.io/f/mnqezpll" method="POST" accept-charset="utf-8">
 
@@ -48,6 +55,23 @@ Feel free to use this form to discuss potential collaborations.
   <textarea rows="6" name="message" id="message" class="form-control" placeholder="Your text comes here." required></textarea>
 
 <button type="submit" class="btn btn-primary mt-4">Send message</button>
+</form>
+:::
+::: {.content-visible when-profile="french"}
+
+<form action="https://formspree.io/f/mnqezpll" method="POST" accept-charset="utf-8">
+
+
+<label for="full-name">Nom complet</label>
+<input type="text" name="name" id="full-name" class="form-control" placeholder="Prénom et Nom" required>
+
+<label for="email-address">Adresse e-mail</label>
+<input type="email" name="_replyto" id="email-address" class="form-control" placeholder="votre@email.com" required>
+
+<label for="message">Message</label>
+<textarea rows="6" name="message" id="message" class="form-control" placeholder="Votre texte se trouve ici." required></textarea>
+
+<button type="submit" class="btn btn-primary mt-4">Envoyer le message</button>
 </form>
 :::
 

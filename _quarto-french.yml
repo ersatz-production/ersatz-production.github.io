@@ -1,0 +1,65 @@
+project:
+  output-dir: ./_site/fr
+
+lang: fr
+
+website:
+  site-url: https://ersatzproduction.com/fr
+  repo-url: https://github.com/ersatz-production/ersatz-production.github.io
+  open-graph: true
+  search: true
+  favicon: "images/our_logo.jpg"
+  description: "Ersatz Production"
+  page-navigation: true
+  reader-mode: false  
+  navbar:
+    background: "#1F80EF"
+    logo: "images/logo_sans_fond.png"
+    left:
+      - href: ../fr
+        text: Français
+      - href: ../en
+        text: English
+    right:
+      - href: about_us.qmd
+        text: À propos de nous
+      - href: filmography.qmd
+        text: Filmographie
+      - href: contact.qmd
+        text: Contact
+        
+  page-footer:
+    left: 
+      - icon: github
+        href: https://github.com/ersatz-production/ersatz-production.github.io
+        text: Dépôt GitHub
+      - href: https://github.com/ersatz-production
+        text: Organisation sur GitHub
+    center:
+      - href: https://ersatzproduction.com
+        text: ersatzproduction.com
+    right: 
+      - href: privacy.html
+        text: Politique de confidentialité
+      - href: terms_and_conditions.html
+        text: Conditions d'utilisation
+
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+    toc-location: right
+    toc-expand: true
+    include-after-body: plausible.html
+    include-before-body: _include.html
+    grid:
+      sidebar-width: 100px
+      body-width: 1300px
+      margin-width: 100px
+      gutter-width: 1.5rem
+
+editor: source
+  
+execute:
+  freeze: true
