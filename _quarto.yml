@@ -5,9 +5,32 @@ profile:
   default: french
   group: [french, english]
 
+website:
+  site-url: https://ersatzproduction.com
+  repo-url: https://github.com/ersatz-production/ersatz-production.github.io
+  open-graph: true
+  search: true
+  favicon: "images/our_logo.jpg"
+  description: "Ersatz Production"
+  page-navigation: true
+  reader-mode: false  
 
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+    toc-location: right
+    toc-expand: true
+    include-after-body: plausible.html
+    include-before-body: _include.html
+    grid:
+      sidebar-width: 100px
+      body-width: 1300px
+      margin-width: 100px
+      gutter-width: 1.5rem
 
-
+editor: source
 
 execute:
   freeze: true
