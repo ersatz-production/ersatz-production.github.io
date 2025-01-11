@@ -4,7 +4,22 @@ format:
     grid:
       margin-width: 0px
       sidebar-width: 0px
-
+website:
+  navbar:
+    background: "#1F80EF"
+    logo: "images/logo_sans_fond.png"
+    left:
+      - href: ../fr/contact.html
+        text: Français
+      - href: ../en/contact.html
+        text: English
+    right:
+      - href: about_us.qmd
+        text: About Us
+      - href: filmography.qmd
+        text: Filmography
+      - href: contact.qmd
+        text: Contact
 header-includes: >
   <link rel="stylesheet" href="assets/contact.css">
 resources:
