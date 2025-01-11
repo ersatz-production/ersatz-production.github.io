@@ -27,7 +27,7 @@ Présente
 
 ```{r setup}
 #| echo: false
-lang <- ifelse(Sys.getenv("QUARTO_PROFILE") == "french", "french", "english")
+
 add_scene <- function(src, title, role, text, url, link_text, img_alt, direction = "right") {
   lines <- c(
     sprintf('<div class="scene-wrapper scroll-reveal" data-direction="%s">', direction),
@@ -61,6 +61,7 @@ add_scene <- function(src, title, role, text, url, link_text, img_alt, direction
 ```{r}
 #| echo: false
 #| results: asis
+lang <- ifelse(Sys.getenv("QUARTO_PROFILE") %in% c("french", "fr", "FR", "FR-fr", ""), "french", "english")
 
 # First team member
 if (lang == "english") {
