@@ -58,13 +58,12 @@ add_scene <- function(src, title, role, text, url, link_text, img_alt, direction
 ```
 
 ::: {.film-reel}
-```{r}
+::: {.content-visible when-profile="english"}
+```{r english-team}
 #| echo: false
 #| results: asis
-lang <- ifelse(Sys.getenv("QUARTO_PROFILE") %in% c("french", "fr", "FR", "FR-fr", ""), "french", "english")
 
 # First team member
-if (lang == "english") {
 add_scene(
   src = "images/avatar-rani.png",
   title = "Rani", 
@@ -75,20 +74,8 @@ add_scene(
   link_text = "View Portfolio",
   direction = "right"
 )
-} else {
- add_scene(
-  src = "images/avatar-rani.png",
-  title = "Rani", 
-  role = "Réalisateur & Créateur",
-  text = "Rani a commencé son exploration du cinéma en étudiant le cinéma à Séoul, en Corée du Sud. Maintenant, il travaille comme traducteur freelance et passe son temps à créer de la musique – ou du bruit – sur le piano ou l'ordinateur, à jouer jusqu'à tard le soir, et à plonger dans la littérature et la philosophie. La découverte de nouvelles expériences et impressions à travers divers domaines artistiques et médias est ce qui l'intéresse et ce qu'il souhaite transmettre à travers ses propres œuvres.",
-  url = "https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A",
-  img_alt = "Un avatar d'un homme barbu.",
-  link_text = "Voir le portfolio",
-  direction = "right"
-)
-} 
+
 # Second team member
-if (lang == "english") {
 add_scene(
   src = "images/vincent_profile.jpg",
   title = "Vincent", 
@@ -99,21 +86,8 @@ add_scene(
   link_text = "View Portfolio",
   direction = "left"
 )
-} else {
-add_scene(
-  src = "images/vincent_profile.jpg",
-  title = "Vincent", 
-  role = "Président & Créateur",
-  text = "Rencontre Vincent, notre narrateur. Son amour pour les histoires a commencé il y a longtemps, d'abord en tant qu'enseignant d'anglais et de histoire, où il a tissé des histoires dans chaque leçon. Mais Vincent n'a pas arrêté là; il a porté sa maîtrise du récit à la radio, créant des podcasts conçus à la fois pour être éducatifs et amusants. Avec un penchant pour les thrillers psychologiques et l'allure des questions sans réponse, Vincent est un avid consumer de médias culturels.",
-  url = "https://www.linkedin.com/in/vincent-lettry-a4ab81259/",
-  img_alt = "Un avatar d'un blond.",
-  link_text = "Voir le portfolio",
-  direction = "left"
-)
-}
 
 # Third team member
-if (lang == "english") {
 add_scene(
   src = "images/matthias_profile.jpeg",
   title = "Matthias", 
@@ -124,21 +98,8 @@ add_scene(
   link_text = "View Portfolio",
   direction = "right"
 )
-} else {
-add_scene(
-  src = "images/matthias_profile.jpeg",
-  title = "Matthias", 
-  role = "Créateur",
-  text = "Travaillant principalement comme commerçant d'art moderne avec une formation en cinéma, allant de l'analyse de film à la rédaction de scénarios, Matthias souhaite fusionner ses compétences pour aider à la création de nouvelles œuvres, libres de conventions et d'idées pré-conçues.",
-  url = "https://ersatzproduction.com",
-  img_alt = "Matthias profile photo",
-  link_text = "Voir le portfolio",
-  direction = "right"
-)
-}
 
 # Fourth team member
-if (lang == "english") {
 add_scene(
   src = "images/lclettry_profile.jpg",
   title = "Layal", 
@@ -149,7 +110,51 @@ add_scene(
   link_text = "View Portfolio",
   direction = "left"
 )   
-} else {    
+
+```
+:::
+::: {.content-visible when-profile="french"}
+```{r french-team}
+#| echo: false
+#| results: asis
+
+# First team member
+ add_scene(
+  src = "images/avatar-rani.png",
+  title = "Rani", 
+  role = "Réalisateur & Créateur",
+  text = "Rani a commencé son exploration du cinéma en étudiant le cinéma à Séoul, en Corée du Sud. Maintenant, il travaille comme traducteur freelance et passe son temps à créer de la musique – ou du bruit – sur le piano ou l'ordinateur, à jouer jusqu'à tard le soir, et à plonger dans la littérature et la philosophie. La découverte de nouvelles expériences et impressions à travers divers domaines artistiques et médias est ce qui l'intéresse et ce qu'il souhaite transmettre à travers ses propres œuvres.",
+  url = "https://www.swissfilms.ch/en/person/gillioz-rani/320F8A74646E41718A8CB4BD0C32B79A",
+  img_alt = "Un avatar d'un homme barbu.",
+  link_text = "Voir le portfolio",
+  direction = "right"
+)
+
+# Second team member
+add_scene(
+  src = "images/vincent_profile.jpg",
+  title = "Vincent", 
+  role = "Président & Créateur",
+  text = "Rencontre Vincent, notre narrateur. Son amour pour les histoires a commencé il y a longtemps, d'abord en tant qu'enseignant d'anglais et de histoire, où il a tissé des histoires dans chaque leçon. Mais Vincent n'a pas arrêté là; il a porté sa maîtrise du récit à la radio, créant des podcasts conçus à la fois pour être éducatifs et amusants. Avec un penchant pour les thrillers psychologiques et l'allure des questions sans réponse, Vincent est un avid consumer de médias culturels.",
+  url = "https://www.linkedin.com/in/vincent-lettry-a4ab81259/",
+  img_alt = "Un avatar d'un blond.",
+  link_text = "Voir le portfolio",
+  direction = "left"
+)
+
+# Third team member
+add_scene(
+  src = "images/matthias_profile.jpeg",
+  title = "Matthias", 
+  role = "Créateur",
+  text = "Travaillant principalement comme commerçant d'art moderne avec une formation en cinéma, allant de l'analyse de film à la rédaction de scénarios, Matthias souhaite fusionner ses compétences pour aider à la création de nouvelles œuvres, libres de conventions et d'idées pré-conçues.",
+  url = "https://ersatzproduction.com",
+  img_alt = "Matthias profile photo",
+  link_text = "Voir le portfolio",
+  direction = "right"
+)
+
+# Fourth team member
 add_scene(  
   src = "images/lclettry_profile.jpg",    
   title = "Layal",
@@ -160,8 +165,8 @@ add_scene(
   link_text = "Voir le portfolio",
   direction = "left"
 )
-}
 ```
+:::
 :::
 
 <script>
