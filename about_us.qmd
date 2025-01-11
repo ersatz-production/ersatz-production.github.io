@@ -9,7 +9,12 @@ format:
 :::
 ::: {.opening-credits}
 ::: {.title-card}
+::: {.content-visible when-profile="english"}
 # [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
+:::
+::: {.content-visible when-profile="french"}
+# [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
+:::
 ::: {.tagline}
 ::: {.content-visible when-profile="english"}
 Presents
