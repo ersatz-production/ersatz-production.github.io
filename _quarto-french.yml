@@ -8,9 +8,9 @@ website:
     background: "#1F80EF"
     logo: "images/logo_sans_fond.png"
     left:
-      - href: ./fr
+      - href: ../fr
         text: Français
-      - href: ./en
+      - href: ../en
         text: English
     right:
       - href: about_us.qmd
