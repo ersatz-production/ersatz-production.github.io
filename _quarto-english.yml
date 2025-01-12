@@ -8,10 +8,12 @@ website:
     background: "#1F80EF"
     logo: "images/logo_sans_fond.png"
     left:
-      - href: ../fr
-        text: Français
-      - href: ../en
-        text: English
+      - icon: bi-translate
+        menu:
+          - href: ../en
+            text: English
+          - href: ../fr
+            text: Français
     right:
       - href: about_us.qmd
         text: About Us

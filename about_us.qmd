@@ -9,14 +9,6 @@ format:
 ::: {.opening-credits}
 ::: {.title-card}
 # [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
-::: {.tagline}
-::: {.content-visible when-profile="french"}
-Présente
-:::
-::: {.content-visible when-profile="english"}
-Presents
-:::
-:::
 :::
 :::
 
