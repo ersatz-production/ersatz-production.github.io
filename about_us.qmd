@@ -1,7 +1,6 @@
 ---
 format:
   html:
-    css: styles.css
     toc: false
 ---
 ::: {.film-grain}

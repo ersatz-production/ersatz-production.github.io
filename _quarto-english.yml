@@ -37,4 +37,4 @@ website:
         text: Terms and Conditions
 
 execute:
-  freeze: true
+  freeze: auto

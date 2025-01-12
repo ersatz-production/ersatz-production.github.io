@@ -38,4 +38,4 @@ website:
 
  
 execute:
-  freeze: true
+  freeze: auto
