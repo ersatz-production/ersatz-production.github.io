@@ -4,11 +4,10 @@ format:
     css: styles.css
     toc: false
 ---
-
+::: {.content-visible when-profile="english"}
 ::: {.film-grain}
 :::
 
-::: {.content-visible when-profile="english"}
 ::: {.opening-credits}
 ::: {.title-card}
 # [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
@@ -20,6 +19,9 @@ Presents
 :::
 
 ::: {.content-visible when-profile="french"}
+::: {.film-grain}
+:::
+
 ::: {.opening-credits}
 ::: {.title-card}
 # [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
