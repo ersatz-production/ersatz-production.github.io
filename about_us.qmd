@@ -6,24 +6,6 @@ format:
 ::: {.film-grain}
 :::
 
-::: {.opening-credits}
-::: {.title-card}
-::: {.content-visible when-profile="english"}
-# [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
-::: {.tagline}
-Presents
-:::
-:::
-
-::: {.content-visible when-profile="french"}
-# [ERSATZ]{.company-name} [PRODUCTION]{.company-type}
-::: {.tagline}
-Présente
-:::
-:::
-
-:::
-:::
 
 ```{r setup}
 #| echo: false
