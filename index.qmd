@@ -13,9 +13,9 @@ Ersatz Production is a production company (association) based in Fribourg, Switz
 It was founded in 2024 by four people from different professional backgrounds, united by one common desire, namely *going beyond established frameworks*.
 :::
 ::: {.content-visible when-profile="french"}
-Ersatz Production est une association de production basée à Fribourg, en Suisse.
+Ersatz Production est une société de production basée à Fribourg, en Suisse.
 
-Elle a été fondée en 2024 par quatre personnes de différentes professions, unies par un seul désir, à savoir *aller au-delà des cadres établis*.
+Elle a été fondée sous forme d'association en 2024 par quatre personnes issues d'horizons professionnels différents, mais unies par un désir commun: *aller au-delà des cadres établis*.
 :::
 :::
 
@@ -41,7 +41,7 @@ Elle a été fondée en 2024 par quatre personnes de différentes professions, u
 Whether documentary or fiction films - short, medium or feature-length - TV or web series, podcasts, music or live art, our aim is to promote and create audiovisual works with cross-media approach ambitions, while supporting bold and innovative artists.
 ::: 
 ::: {.content-visible when-profile="french"}
-Que ce soit des films documentaires ou des fictions - courts, moyens ou longs métrages- séries TV ou web, podcasts, musique ou art vivant, notre objectif est de promouvoir et créer des œuvres audiovisuelles avec des ambitions de cross-media, tout en soutenant des artistes audacieux et innovants.
+Qu'il s'agisse de films documentaires ou de fictions – courts, moyens ou longs-métrages –, de séries TV ou web, de podcasts, de musique ou d'art vivant, notre objectif est de promouvoir et de créer des œuvres audiovisuelles avec des ambitions cross-média, tout en soutenant des artistes audacieux et innovants.
 :::
 :::
 
@@ -71,7 +71,7 @@ Que ce soit des films documentaires ou des fictions - courts, moyens ou longs m�
 A short film project by Rani Gillioz
 :::
 ::: {.content-visible when-profile="french"}
-Un court métrage de fiction par Rani Gillioz
+Un projet de court-métrage de fiction de Rani Gillioz
 :::
 :::
 
@@ -81,7 +81,7 @@ Un court métrage de fiction par Rani Gillioz
 An audio fiction project by Vincent Lettry
 :::
 ::: {.content-visible when-profile="french"}
-Un projet audio fiction par Vincent Lettry
+Un projet de fiction audio de Vincent Lettry
 :::
 :::
 
@@ -104,7 +104,7 @@ Créé par Vincent Lettry
 
 Podcast, 105 épisodes, 2023 – aujourd'hui
 
-Écrit, Réalisé, Produit, Monté, Voix
+Écriture, Réalisation, Production, Montage, Voix
 
 [Écouter maintenant](https://cryptofacto.buzzsprout.com){.button}
 :::
