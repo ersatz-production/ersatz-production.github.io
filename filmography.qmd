@@ -45,11 +45,11 @@ css: styles.css
 ### DEMONS
 ::: {.project-details}
 ::: {.content-visible when-profile="english"}
-- Official music video for Demons by Desmond, 5 min. 47 sec., 2016
+- Official music video for *Demons* by Desmond, 5 min. 47 sec., 2016
 - Directed, Produced, Shot, Edited
 :::
 ::: {.content-visible when-profile="french"}
-- Clip vidéo officiel pour Demons par Desmond, 5 min. 47 sec., 2016
+- Clip vidéo officiel pour *Demons* par Desmond, 5 min. 47 sec., 2016
 - Réalisation, Production, Image, Montage
 :::
 :::

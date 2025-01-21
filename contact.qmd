@@ -18,15 +18,15 @@ resources:
 ::: {.g-col-5 #note}
 ::: {.content-visible when-profile="english"}
 
-# Connect through your ideas
+# Contact us
 
 Feel free to use this form to discuss potential collaborations.
 :::
 ::: {.content-visible when-profile="french"}
 
-# Connectez-vous avec nous à travers vos idées
+# Prenez contact avec nous.
 
-N'hésitez pas à utiliser ce formulaire pour discuter de collaborations potentielles.
+N’hésitez pas à utiliser ce formulaire pour discuter de collaborations potentielles.
 :::
 
 <!-- verification -->
