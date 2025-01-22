@@ -129,7 +129,7 @@ add_scene(
   src = "images/matthias_profile.jpeg",
   title = "Matthias", 
   role = "Créateur",
-  text = "Travaillant principalement comme commerçant d'art moderne avec une formation en cinéma, allant de l'analyse de film à la rédaction de scénarios, Matthias souhaite fusionner ses compétences pour aider à la création de nouvelles œuvres, libres de conventions et d'idées pré-conçues.",
+  text = "Travaillant principalement comme commerçant d'art moderne avec une formation en cinéma, allant de l'analyse de film à la rédaction de scénarios, Matthias souhaite fusionner ses compétences pour aider à la création de nouvelles oeuvres, libres de conventions et d'idées préconçues.",
   url = "https://ersatzproduction.com",
   img_alt = "Matthias profile photo",
   link_text = "Voir le portfolio",
