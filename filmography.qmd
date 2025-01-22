@@ -16,7 +16,7 @@ css: styles.css
 :::
 ::: {.content-visible when-profile="french"}
 - Podcast, 15 épisodes, 2022-2023
-- Scénario, Réalisation, Production, Voix
+- Écriture, Réalisation, Production, Voix
 - [Écouter sur Buzzsprout](https://morituripodcast.buzzsprout.com)
 :::
 :::
@@ -34,7 +34,7 @@ css: styles.css
 :::
 ::: {.content-visible when-profile="french"}
 - Podcast, 15 épisodes, 2022-2023
-- Scénario, Réalisation, Production, Montage, Voix
+- Écriture, Réalisation, Production, Montage, Voix
 - [Écouter sur Buzzsprout](https://morituripodcast.buzzsprout.com)
 :::
 :::
@@ -49,7 +49,7 @@ css: styles.css
 - Directed, Produced, Shot, Edited
 :::
 ::: {.content-visible when-profile="french"}
-- Clip vidéo officiel pour *Demons* par Desmond, 5 min. 47 sec., 2016
+- Clip vidéo officiel pour *Demons* de Desmond, 5 min. 47 sec., 2016
 - Réalisation, Production, Image, Montage
 :::
 :::
@@ -89,7 +89,7 @@ css: styles.css
 - Directed, Produced, Written, Shot, Edited, Music
 :::
 ::: {.content-visible when-profile="french"}
-- Long-métrage de fiction – travail de fin d’études, 98 min., 2010
+- Long-métrage de fiction – travail de fin d'études, 98 min., 2010
 - Réalisation, Production, Scénario, Image, Montage, Musique
 :::
 :::
@@ -112,11 +112,11 @@ css: styles.css
 ### NEONS
 ::: {.project-details}
 ::: {.content-visible when-profile="english"}
-- Official music video for I believe in love at first sight by Neons, 3 min. 38 sec., 2010
+- Official music video for *I believe in love at first sight* by Neons, 3 min. 38 sec., 2010
 - Directed, Shot, Edited
 :::
 ::: {.content-visible when-profile="french"}
-- Clip vidéo officiel pour *I believe in love at first sight par Neons*, 3 min. 38 sec., 2010
+- Clip vidéo officiel pour *I believe in love at first sight* de Neons, 3 min. 38 sec., 2010
 - Réalisation, Image, Montage
 :::
 :::
@@ -144,7 +144,7 @@ css: styles.css
 - Directed, Shot, Edited
 :::
 ::: {.content-visible when-profile="french"}
-- Clip vidéo officiel pour *Solitaire* par Notwist, 4 min., 2008
+- Clip vidéo non officiel pour *Solitaire* de Notwist, 4 min., 2008
 - Réalisation, Image, Montage
 :::
 :::

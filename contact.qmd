@@ -28,7 +28,8 @@ Feel free to use this form to discuss potential collaborations.
 
 N’hésitez pas à utiliser ce formulaire pour discuter de collaborations potentielles.
 :::
-
+:::
+:::
 <!-- verification -->
 
 <a rel="me" style="display:none" href="https://github.com/ersatz-production">Hidden link used to verify my account on GitHub</a>
