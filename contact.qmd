@@ -1,6 +1,7 @@
 ---
 format: 
   html: 
+    toc: false
     grid:
       margin-width: 0px
       sidebar-width: 0px
