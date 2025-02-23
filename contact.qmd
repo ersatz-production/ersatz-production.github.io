@@ -21,14 +21,18 @@ resources:
 
 # Contact us
 
-Feel free to use this form to discuss potential collaborations.
+<!-- Feel free to use this form to discuss potential collaborations. -->
+
+Currently, we are unable to accept external projects. However, please do not hesitate to reach out for any additional information or inquiries.
+
 :::
 ::: {.content-visible when-profile="french"}
 
 # Prenez contact avec nous.
 
-N’hésitez pas à utiliser ce formulaire pour discuter de collaborations potentielles.
+<!-- N’hésitez pas à utiliser ce formulaire pour discuter de collaborations potentielles. -->
 
+Pour le moment, nous ne sommes malheureusement pas encore en mesure de prendre en charge des projets externes, mais n'hésitez pas à nous contacter pour toute autre information ou question.
 
 :::
 <!-- verification -->

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-8ee139cf01d2fc39d579c271b2d5ea77.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Prenez contact avec nous.</h1></header>
 <link rel="icon" type="images/png" href="./images/favicon/favicon-48x48.png" sizes="48x48">
 <link rel="icon" type="images/svg+xml" href="./images/favicon/favicon.svg">
 <link rel="shortcut icon" href="./images/favicon/favicon.ico">
@@ -150,8 +150,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="grid">
 <div id="note" class="g-col-5">
 <section id="prenez-contact-avec-nous." class="level1">
-<h1>Prenez contact avec nous.</h1>
-<p>N’hésitez pas à utiliser ce formulaire pour discuter de collaborations potentielles.</p>
+
+<!-- N’hésitez pas à utiliser ce formulaire pour discuter de collaborations potentielles. -->
+<p>Pour le moment, nous ne sommes malheureusement pas encore en mesure de prendre en charge des projets externes, mais n’hésitez pas à nous contacter pour toute autre information ou question.</p>
 <!-- verification -->
 <p><a rel="me" style="display:none" href="https://github.com/ersatz-production">Hidden link used to verify my account on GitHub</a></p>
 </section>
@@ -261,8 +262,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -373,7 +372,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
