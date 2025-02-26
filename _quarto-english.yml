@@ -29,6 +29,9 @@ website:
         text: GitHub Repository
       - href: https://github.com/ersatz-production
         text: GitHub Organisation
+      - icon: linkedin
+        href: https://linkedin.com/company/ersatz-production
+        text: LinkedIn
     center:
       - href: https://ersatzproduction.com
         text: ersatzproduction.com
