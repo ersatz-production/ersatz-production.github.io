@@ -47,7 +47,7 @@ add_scene <- function(src, title, role, text, url, link_text, img_alt, direction
 
 # First team member
 add_scene(
-  src = "images/avatar-rani.png",
+  src = "images/rani_profile.jpeg",
   title = "Rani", 
   role = "Director & Creator",
   text = "Rani got into filmmaking while studying film in Seoul, South Korea. He now works as a freelance translator and spends his free time creating music - or noise - on the piano or computer, playing video games late into the night, and immersing himself in literature and philosophy. He is particularly interested in discovering new experiences and impressions through various forms of art and media, and wishes to convey this through his own work.",
@@ -59,7 +59,7 @@ add_scene(
 
 # Second team member
 add_scene(
-  src = "images/vincent_profile.jpg",
+  src = "images/vincent_profile.jpeg",
   title = "Vincent", 
   role = "President & Creator",
   text = "Vincent is passionate about education and coaching. He's interested in many different subjects, from philosophy to music, sports and communication. He's also a big fan of film and music. As an English and History teacher, he works every day with many people from different backgrounds. He accompanies them and helps them to find their own way. He draws on his social experience and interests to create compelling stories and tells them in a way that makes them accessible to a wide audience.",
@@ -83,7 +83,7 @@ add_scene(
 
 # Fourth team member
 add_scene(
-  src = "images/lclettry_profile.jpg",
+  src = "images/layal_profile.jpeg",
   title = "Layal", 
   role = "Technology & Organisation",
   text = "Layal is passionate about languages, whether living, dead or computer-based. After graduating from high school with a focus on languages and philosophy, she went on to study Management and Economics, during which time she developed a passion for statistics and econometrics. After working in the Swiss federal administration as an econometrician, she decided to concentrate on data processing. She then became a consultant in R, working  as a data scientist. Thanks to her IT and management skills, she is mainly responsible for maintaining the production company's IT solutions and finances.",
@@ -102,7 +102,7 @@ add_scene(
 
 # First team member
  add_scene(
-  src = "images/avatar-rani.png",
+  src = "images/rani_profile.jpeg",
   title = "Rani", 
   role = "Réalisateur & Créateur",
   text = "Rani s'est lancé dans la réalisation de films en étudiant le cinéma à Séoul, en Corée du Sud. Il travaille aujourd'hui comme traducteur indépendant et passe son temps libre à créer de la musique – ou du bruit – au piano ou à l'ordinateur, à jouer aux jeux vidéo jusque tard dans la nuit, et à s'immerger dans la littérature et la philosophie. Il s'intéresse en particulier à la découverte de nouvelles expériences et impressions à travers diverses formes d'art et de médias, et souhaite transmettre cela à travers ses propres oeuvres.",
@@ -114,7 +114,7 @@ add_scene(
 
 # Second team member
 add_scene(
-  src = "images/vincent_profile.jpg",
+  src = "images/vincent_profile.jpeg",
   title = "Vincent", 
   role = "Président & Créateur",
   text = "Vincent est passionné par l'éducation ainsi que le coaching et s'intéresse à beaucoup de thématiques différentes, allant de la philosophie à la musique, en passant par les sports et la communication. Il est également un grand amateur de cinéma et de musique. Enseignant d'anglais et d'histoire, il travaille tous les jours entouré de beaucoup de personnes aux horizons différents. Il les accompagne et les aide à trouver leur propre voie. Il s'inspire de son expérience sociale et de ses intérêts pour créer des histoires captivantes et les raconte de manière à les rendre accessibles à un public large.",
@@ -138,7 +138,7 @@ add_scene(
 
 # Fourth team member
 add_scene(  
-  src = "images/lclettry_profile.jpg",    
+  src = "images/layal_profile.jpeg",    
   title = "Layal",
   role = "Technologie & Organisation",
   text = "Layal est passionnée par les langues, qu'elles soient vivantes, mortes ou informatiques. Après avoir obtenu une maturité gymnasiale centrée sur les langues et la philosophie, elle se lance dans des études de gestion d'entreprise et d'économie politique, pendant lesquelles elle développe une passion pour la statistique et l'économétrie. Après avoir travaillé au sein de l'administration fédérale suisse en tant qu'économètre, elle décide de se concentrer sur le traitement des données. Elle devient alors consultante en langage R, travaillant en tant que scientifique des données. Grâce à ses compétences informatiques et de gestion, elle s'occupe principalement de la maintenance des solutions informatiques et des finances de la société de production.",
